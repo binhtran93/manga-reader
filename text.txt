@@ -1,0 +1,1283 @@
+array:10 [
+  0 => DOMElement {#8417
+    +nodeName: "li"
+    +nodeValue: ""
+    +nodeType: XML_ELEMENT_NODE
+    +parentNode: DOMElement {#8428 …}
+    +childNodes: DOMNodeList {#8436
+      +length: 5
+    }
+    +firstChild: DOMElement {#8434 …}
+    +lastChild: DOMElement {#8437 …}
+    +previousSibling: DOMElement {#8418
+      +nodeName: "li"
+      +nodeValue: ""
+      +nodeType: XML_ELEMENT_NODE
+      +parentNode: DOMElement {#8428 …}
+      +childNodes: DOMNodeList {#8413
+        +length: 2
+      }
+      +firstChild: DOMElement {#8411 …}
+      +lastChild: DOMElement {#8409 …}
+      +previousSibling: DOMElement {#8419
+        +nodeName: "li"
+        +nodeValue: ""
+        +nodeType: XML_ELEMENT_NODE
+        +parentNode: DOMElement {#8428 …}
+        +childNodes: DOMNodeList {#8399
+          +length: 2
+        }
+        +firstChild: DOMElement {#8397 …}
+        +lastChild: DOMElement {#8395 …}
+        +previousSibling: DOMElement {#8420
+          +nodeName: "li"
+          +nodeValue: ""
+          +nodeType: XML_ELEMENT_NODE
+          +parentNode: DOMElement {#8428 …}
+          +childNodes: DOMNodeList {#8385
+            +length: 2
+          }
+          +firstChild: DOMElement {#8383 …}
+          +lastChild: DOMElement {#8381 …}
+          +previousSibling: DOMElement {#8421
+            +nodeName: "li"
+            +nodeValue: ""
+            +nodeType: XML_ELEMENT_NODE
+            +parentNode: DOMElement {#8428 …}
+            +childNodes: DOMNodeList {#8371
+              +length: 2
+            }
+            +firstChild: DOMElement {#8369 …}
+            +lastChild: DOMElement {#8367 …}
+            +previousSibling: DOMElement {#8422
+              +nodeName: "li"
+              +nodeValue: ""
+              +nodeType: XML_ELEMENT_NODE
+              +parentNode: DOMElement {#8428 …}
+              +childNodes: DOMNodeList {#8357
+                +length: 2
+              }
+              +firstChild: DOMElement {#8355 …}
+              +lastChild: DOMElement {#8353 …}
+              +previousSibling: DOMElement {#8423
+                +nodeName: "li"
+                +nodeValue: ""
+                +nodeType: XML_ELEMENT_NODE
+                +parentNode: DOMElement {#8428 …}
+                +childNodes: DOMNodeList {#8343
+                  +length: 2
+                }
+                +firstChild: DOMElement {#8341 …}
+                +lastChild: DOMElement {#8339 …}
+                +previousSibling: DOMElement {#8424
+                  +nodeName: "li"
+                  +nodeValue: ""
+                  +nodeType: XML_ELEMENT_NODE
+                  +parentNode: DOMElement {#8428 …}
+                  +childNodes: DOMNodeList {#8329
+                    +length: 2
+                  }
+                  +firstChild: DOMElement {#8327 …}
+                  +lastChild: DOMElement {#8325 …}
+                  +previousSibling: DOMElement {#8425
+                    +nodeName: "li"
+                    +nodeValue: ""
+                    +nodeType: XML_ELEMENT_NODE
+                    +parentNode: DOMElement {#8428 …}
+                    +childNodes: DOMNodeList {#8315
+                      +length: 2
+                    }
+                    +firstChild: DOMElement {#8313 …}
+                    +lastChild: DOMElement {#8311 …}
+                    +previousSibling: DOMElement {#8426
+                      +nodeName: "li"
+                      +nodeValue: ""
+                      +nodeType: XML_ELEMENT_NODE
+                      +parentNode: DOMElement {#8428 …}
+                      +childNodes: DOMNodeList {#8301
+                        +length: 2
+                      }
+                      +firstChild: DOMElement {#8299 …}
+                      +lastChild: DOMElement {#8297 …}
+                      +previousSibling: null
+                      +nextSibling: DOMElement {#8425}
+                      +attributes: DOMNamedNodeMap {#8294
+                        +length: 0
+                      }
+                      +ownerDocument: DOMDocument {#8449 …}
+                      +namespaceURI: null
+                      +prefix: ""
+                      +localName: "li"
+                      +baseURI: null
+                      +textContent: ""
+                      +tagName: "li"
+                      +schemaTypeInfo: null
+                    }
+                    +nextSibling: DOMElement {#8424}
+                    +attributes: DOMNamedNodeMap {#8308
+                      +length: 0
+                    }
+                    +ownerDocument: DOMDocument {#8449 …}
+                    +namespaceURI: null
+                    +prefix: ""
+                    +localName: "li"
+                    +baseURI: null
+                    +textContent: ""
+                    +tagName: "li"
+                    +schemaTypeInfo: null
+                  }
+                  +nextSibling: DOMElement {#8423}
+                  +attributes: DOMNamedNodeMap {#8322
+                    +length: 0
+                  }
+                  +ownerDocument: DOMDocument {#8449 …}
+                  +namespaceURI: null
+                  +prefix: ""
+                  +localName: "li"
+                  +baseURI: null
+                  +textContent: ""
+                  +tagName: "li"
+                  +schemaTypeInfo: null
+                }
+                +nextSibling: DOMElement {#8422}
+                +attributes: DOMNamedNodeMap {#8336
+                  +length: 0
+                }
+                +ownerDocument: DOMDocument {#8449 …}
+                +namespaceURI: null
+                +prefix: ""
+                +localName: "li"
+                +baseURI: null
+                +textContent: ""
+                +tagName: "li"
+                +schemaTypeInfo: null
+              }
+              +nextSibling: DOMElement {#8421}
+              +attributes: DOMNamedNodeMap {#8350
+                +length: 0
+              }
+              +ownerDocument: DOMDocument {#8449 …}
+              +namespaceURI: null
+              +prefix: ""
+              +localName: "li"
+              +baseURI: null
+              +textContent: ""
+              +tagName: "li"
+              +schemaTypeInfo: null
+            }
+            +nextSibling: DOMElement {#8420}
+            +attributes: DOMNamedNodeMap {#8364
+              +length: 0
+            }
+            +ownerDocument: DOMDocument {#8449 …}
+            +namespaceURI: null
+            +prefix: ""
+            +localName: "li"
+            +baseURI: null
+            +textContent: ""
+            +tagName: "li"
+            +schemaTypeInfo: null
+          }
+          +nextSibling: DOMElement {#8419}
+          +attributes: DOMNamedNodeMap {#8378
+            +length: 0
+          }
+          +ownerDocument: DOMDocument {#8449 …}
+          +namespaceURI: null
+          +prefix: ""
+          +localName: "li"
+          +baseURI: null
+          +textContent: ""
+          +tagName: "li"
+          +schemaTypeInfo: null
+        }
+        +nextSibling: DOMElement {#8418}
+        +attributes: DOMNamedNodeMap {#8392
+          +length: 0
+        }
+        +ownerDocument: DOMDocument {#8449 …}
+        +namespaceURI: null
+        +prefix: ""
+        +localName: "li"
+        +baseURI: null
+        +textContent: ""
+        +tagName: "li"
+        +schemaTypeInfo: null
+      }
+      +nextSibling: DOMElement {#8417}
+      +attributes: DOMNamedNodeMap {#8406
+        +length: 0
+      }
+      +ownerDocument: DOMDocument {#8449 …}
+      +namespaceURI: null
+      +prefix: ""
+      +localName: "li"
+      +baseURI: null
+      +textContent: ""
+      +tagName: "li"
+      +schemaTypeInfo: null
+    }
+    +nextSibling: null
+    +attributes: DOMNamedNodeMap {#8431
+      +length: 1
+    }
+    +ownerDocument: DOMDocument {#8449 …}
+    +namespaceURI: null
+    +prefix: ""
+    +localName: "li"
+    +baseURI: null
+    +textContent: ""
+    +tagName: "li"
+    +schemaTypeInfo: null
+  }
+  1 => DOMElement {#8418}
+  2 => DOMElement {#8419}
+  3 => DOMElement {#8420}
+  4 => DOMElement {#8421}
+  5 => DOMElement {#8422}
+  6 => DOMElement {#8423}
+  7 => DOMElement {#8424}
+  8 => DOMElement {#8425}
+  9 => DOMElement {#8426}
+]
+Symfony\Component\DomCrawler\Crawler {#8460
+  #uri: null
+  -defaultNamespacePrefix: "default"
+  -namespaces: []
+  -baseHref: null
+  -document: DOMDocument {#8449
+    +nodeName: "#document"
+    +nodeValue: null
+    +nodeType: XML_HTML_DOCUMENT_NODE
+    +parentNode: null
+    +childNodes: DOMNodeList {#8434
+      +length: 2
+    }
+    +firstChild: DOMDocumentType {#8437 …}
+    +lastChild: DOMElement {#8462 …}
+    +previousSibling: null
+    +nextSibling: null
+    +attributes: null
+    +ownerDocument: null
+    +namespaceURI: null
+    +prefix: ""
+    +localName: null
+    +baseURI: null
+    +textContent: ""
+    +doctype: DOMDocumentType {#8437 …}
+    +implementation: DOMImplementation {#8427
+      Core: "1.0"
+      XML: "2.0"
+    }
+    +documentElement: DOMElement {#8462 …}
+    +actualEncoding: "utf-8"
+    +encoding: "utf-8"
+    +xmlEncoding: "utf-8"
+    +standalone: true
+    +xmlStandalone: true
+    +version: null
+    +xmlVersion: null
+    +strictErrorChecking: true
+    +documentURI: null
+    +config: null
+    +formatOutput: false
+    +validateOnParse: true
+    +resolveExternals: false
+    +preserveWhiteSpace: true
+    +recover: false
+    +substituteEntities: false
+    xml: """
+      <?xml version="1.0" encoding="utf-8" standalone="yes"?>\n
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+      <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="vi">\n
+        <head>\n
+          <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />\n
+          <meta content="width=device-width, initial-scale=1.0" name="viewport" />\n
+          <title>Unbalance Triangle - Truyện Tranh</title>\n
+          <meta content="❶❶❶ Truyện Unbalance Triangle : Như các thím thể loại kinh điển trong hentai là INCEST và phổ biến nhất là chụy x em , anh x em! Hôm nay sẽ là một bộ ecchi hơi nhẹ với đề tài siêu kinh điển ấy! Một người chụy mất trí nhớ, 1 người em damdang (sr unikey hư) ở cùng một nhà và rồi hí hí....hí hí...ực...ực..." name="description" />\n
+          <link href="http://thichtruyentranh.com/unbalance-triangle/6422.html" rel="canonical" />\n
+          <meta content="Truyện Tranh Unbalance Triangle, , unbalance-triangle" name="keywords" />\n
+          <link href="http://thichtruyentranh.com/m/unbalance-triangle/6422.html" media="only screen and (max-width: 640px)" rel="alternate" />\n
+          <meta content="Unbalance Triangle" property="og:title" />\n
+          <meta content="book" property="og:type" />\n
+          <meta content="http://thichtruyentranh.com/unbalance-triangle/6422.html" property="og:url" />\n
+          <meta content="http://st.thichtruyentranh.com/images/icon/0022/unbalance-triangle1439612529.jpg" property="og:image" />\n
+          <meta content="Truyện Tranh Online" property="og:site_name" />\n
+          <meta content="Như các thím thể loại kinh điển trong hentai là INCEST và phổ biến nhất là chụy x em , anh x em! Hôm nay sẽ là một bộ ecchi hơi nhẹ với đề tài siêu kinh điển ấy! Một người chụy mất trí nhớ, 1 người em damdang (sr unikey hư) ở cùng một nhà và rồi hí hí....hí hí...ực...ực..." property="og:description" />\n
+          <link href="http://thichtruyentranh.com/unbalance-triangle/unbalance-triangle-chap-1/140380.html" rel="next" />\n
+          <meta content="index,follow,all" name="robots" />\n
+          <meta content="index,follow" name="Googlebot" />\n
+          <script type="text/javascript">\n
+      <![CDATA[\n
+          if (screen.width < 640){\n
+            window.location="http://thichtruyentranh.com/m/unbalance-triangle/6422.html";\n
+          }\n
+        ]]>\n
+          </script>\n
+          <meta content="vi" http-equiv="content-language" />\n
+          <meta content="index,follow" name="robots" />\n
+          <meta content="index,follow" name="Googlebot" />\n
+          <meta content="401352723353194" property="fb:app_id" />\n
+          <meta content="5754f177-b96c8871-dc06b55a-b590a0e8" name="adx_verify" />\n
+          <link href="/images/favicon.png" rel="Shortcut Icon" type="image/ico" />\n
+          <link href="/css/general.css" rel="stylesheet" type="text/css" />\n
+          <link href="/css/stylemain.css?v=1" rel="stylesheet" type="text/css" />\n
+          <link href="/css/paging.css" media="screen" rel="stylesheet" type="text/css" />\n
+          <link href="/css/style_responsive_mobile_all.css" media="screen" rel="stylesheet" type="text/css" />\n
+          <link href="/css/idangerous.swiper.css" media="screen" rel="stylesheet" type="text/css" />\n
+          <link href="/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />\n
+          <script src="/js/jquery-1.10.2.js" type="text/javascript"></script>\n
+          <script src="/js/jquery.cookie.js" type="text/javascript"></script>\n
+      <!--[if lt IE 9]><script src="/js/html5.js"></script> <link rel="stylesheet" href="/css/ie.css"><![endif]-->\n
+          <script>\n
+      <![CDATA[\n
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n
+          ga('create', 'UA-57271336-1', 'auto');\n
+          ga('send', 'pageview');\n
+        ]]>\n
+          </script>\n
+        </head>\n
+        <body>\n
+          <div class="header-wrapper">\n
+            <div class="gradient" id="header">\n
+              <div class="conters">\n
+                <div class="grid1">\n
+                  <a class="logo_top" href="/" title="Truyện Tranh Online">\n
+                    <img alt="Truyện Tranh Online" src="/images/logo.png" />\n
+                    <h1 class="logo-title" title="Truyện Tranh Online">Truyện Tranh Online</h1>\n
+                  </a>\n
+                  <div class="search_pc">\n
+                    <div class="box_input search-has-option">\n
+                      <form action="/truyen-tranh.html" method="get">\n
+                        <input class="input_text" id="input_search_q" name="q" placeholder="Nhập tên truyện cần tìm ..." type="text" />\n
+                        <input class="input_sub" type="submit" value="" />\n
+                      </form>\n
+                    </div>\n
+                  </div>\n
+                </div>\n
+              </div>\n
+            </div>\n
+          </div>\n
+          <div id="nav">\n
+            <div class="conters">\n
+              <ul id="navul">\n
+                <li>\n
+                  <a class="visted" href="/" title="Truyện Tranh Online">Trang chủ</a>\n
+                </li>\n
+                <li>\n
+                  <a href="#" onclick="return false">Thể Loại</a>\n
+                  <div class="dropbox">\n
+                    <ul class="ulsub">\n
+                      <li>\n
+                        <a href="/action.html" title="Action">Action <span style="font-weight:normal">(2510)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/adult.html" title="Adult">Adult <span style="font-weight:normal">(329)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/adventure.html" title="Adventure">Adventure <span style="font-weight:normal">(1306)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/comedy.html" title="Comedy">Comedy <span style="font-weight:normal">(3518)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/cooking.html" title="Cooking">Cooking <span style="font-weight:normal">(2)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/drama.html" title="Drama">Drama <span style="font-weight:normal">(1808)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/ecchi.html" title="Ecchi">Ecchi <span style="font-weight:normal">(1150)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/fantasy.html" title="Fantasy">Fantasy <span style="font-weight:normal">(1564)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/gender-bender.html" title="Gender Bender">Gender Bender <span style="font-weight:normal">(262)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/harem.html" title="Harem">Harem <span style="font-weight:normal">(583)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/historical.html" title="Historical">Historical <span style="font-weight:normal">(503)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/horror.html" title="Horror">Horror <span style="font-weight:normal">(588)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/josei.html" title="Josei">Josei <span style="font-weight:normal">(199)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/manhua.html" title="Manhua">Manhua <span style="font-weight:normal">(766)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/manhwa.html" title="Manhwa">Manhwa <span style="font-weight:normal">(399)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/martial-arts.html" title="Martial Arts">Martial Arts <span style="font-weight:normal">(415)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/mature.html" title="Mature">Mature <span style="font-weight:normal">(400)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/mecha.html" title="Mecha">Mecha <span style="font-weight:normal">(90)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/music.html" title="Music">Music <span style="font-weight:normal">(0)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/mystery.html" title="Mystery">Mystery <span style="font-weight:normal">(728)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/one-shot.html" title="One Shot">One Shot <span style="font-weight:normal">(931)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/psychological.html" title="Psychological">Psychological <span style="font-weight:normal">(463)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/romance.html" title="Romance">Romance <span style="font-weight:normal">(3186)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/school-life.html" title="School Life">School Life <span style="font-weight:normal">(2144)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/sci-fi.html" title="Sci-fi">Sci-fi <span style="font-weight:normal">(596)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/seinen.html" title="Seinen">Seinen <span style="font-weight:normal">(1096)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/shoujo.html" title="Shoujo">Shoujo <span style="font-weight:normal">(1816)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/shoujo-ai.html" title="Shoujo-ai">Shoujo-ai <span style="font-weight:normal">(234)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/shounen.html" title="Shounen">Shounen <span style="font-weight:normal">(1934)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/shounen-ai.html" title="Shounen-ai">Shounen-ai <span style="font-weight:normal">(251)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/slice-of-life.html" title="Slice of Life">Slice of Life <span style="font-weight:normal">(1124)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/soft-yaoi.html" title="Soft Yaoi">Soft Yaoi <span style="font-weight:normal">(149)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/soft-yuri.html" title="Soft Yuri">Soft Yuri <span style="font-weight:normal">(130)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/sports.html" title="Sports">Sports <span style="font-weight:normal">(230)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/supernatural.html" title="Supernatural">Supernatural <span style="font-weight:normal">(1641)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/tragedy.html" title="Tragedy">Tragedy <span style="font-weight:normal">(417)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/16.html" title="16+">16+ <span style="font-weight:normal">(190)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/18.html" title="18+">18+ <span style="font-weight:normal">(224)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/anime.html" title="Anime">Anime <span style="font-weight:normal">(133)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/comic.html" title="Comic">Comic <span style="font-weight:normal">(362)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/doujinshi.html" title="Doujinshi">Doujinshi <span style="font-weight:normal">(280)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/live-action.html" title="Live action">Live action <span style="font-weight:normal">(57)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/magic.html" title="Magic">Magic <span style="font-weight:normal">(128)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/manga.html" title="manga">manga <span style="font-weight:normal">(509)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/nau-an.html" title="Nấu Ăn">Nấu Ăn <span style="font-weight:normal">(18)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/smut.html" title="Smut">Smut <span style="font-weight:normal">(186)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/tap-chi-truyen-tranh.html" title="Tạp chí truyện tranh">Tạp chí truyện tranh <span style="font-weight:normal">(47)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/trap-crossdressing.html" title="Trap (Crossdressing)">Trap (Crossdressing) <span style="font-weight:normal">(41)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/trinh-tham.html" title="Trinh Thám">Trinh Thám <span style="font-weight:normal">(23)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/truyen-scan.html" title="Truyện scan">Truyện scan <span style="font-weight:normal">(148)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/video-clip.html" title="Video Clip">Video Clip <span style="font-weight:normal">(3)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/vncomic.html" title="VnComic">VnComic <span style="font-weight:normal">(138)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/webtoon.html" title="Webtoon">Webtoon <span style="font-weight:normal">(231)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/incest.html" title="Incest">Incest <span style="font-weight:normal">(1)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/yaoi.html" title="Yaoi">Yaoi <span style="font-weight:normal">(79)</span></a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="/xuyen-khong.html" title="Xuyên Không">Xuyên Không <span style="font-weight:normal">(66)</span></a>\n
+                      </li>\n
+                    </ul>\n
+                    <div style="clear:both"></div>\n
+                  </div>\n
+                </li>\n
+                <li>\n
+                  <a href="/truyen-tranh.html?isFull=1">Truyện Full</a>\n
+                </li>\n
+                <li>\n
+                  <a href="/truyen-con-gai.html">Truyện Con Gái</a>\n
+                </li>\n
+                <li>\n
+                  <a href="/truyen-con-trai.html">Truyện Con Trai</a>\n
+                </li>\n
+                <li>\n
+                  <a href="http://sstruyen.com" title="Truyện Đọc">Truyện Đọc</a>\n
+                </li>\n
+                <li>\n
+                  <a href="http://mangafree.me" rel="nofollow" target="_blank" title="Manga Online">Manga Online</a>\n
+                </li>\n
+              </ul>\n
+              <div style="clear:both"></div>\n
+            </div>\n
+          </div>\n
+          <script>\n
+      <![CDATA[\n
+        window.fbAsyncInit = function() {\n
+          FB.init({\n
+            appId      : '401352723353194',\n
+            xfbml      : true,\n
+            version    : 'v2.6'\n
+          });\n
+        };\n
+      \n
+        (function(d, s, id){\n
+           var js, fjs = d.getElementsByTagName(s)[0];\n
+           if (d.getElementById(id)) {return;}\n
+           js = d.createElement(s); js.id = id;\n
+           js.src = "//connect.facebook.net/en_US/sdk.js";\n
+           fjs.parentNode.insertBefore(js, fjs);\n
+         }(document, 'script', 'facebook-jssdk'));\n
+      ]]>\n
+          </script>\n
+          <div id="pagebody">\n
+            <div class="conters m10t">\n
+              <div class="pagelist" id="pagebody_list">\n
+                <div class="divleftpage">\n
+                  <div class="boxpageleft">\n
+                    <div class="divtab_list">\n
+                      <div class="breadcum-wrapper tablable_listtl">\n
+                        <div class="item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url" title="Truyện Tranh Online"><span itemprop="title">Truyện Tranh Online</span></a> ›</div>\n
+                        <div class="item current" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">\n
+                          <a href="/unbalance-triangle/6422.html" itemprop="url" title="Unbalance Triangle">\n
+                            <span itemprop="title">Unbalance Triangle</span>\n
+                          </a>\n
+                        </div>\n
+                      </div>\n
+                      <div style="clear:both"></div>\n
+                      <ul class="ulpro_line">\n
+                        <li>\n
+                          <div class="divthum2">\n
+                            <a href="/unbalance-triangle/6422.html" title="Unbalance Triangle">\n
+                              <img alt="Unbalance Triangle" src="http://st.thichtruyentranh.com/images/icon/0022/unbalance-triangle1439612529.jpg" />\n
+                            </a>\n
+                            <ul class="detail-action">\n
+                              <li class="current">\n
+                                <a href="#" onclick="addBookmark(6422, 140380);return false;">\n
+                                  <span class="fa fa-flag"></span>\n
+                                  <span>Đánh dấu</span>\n
+                                </a>\n
+                              </li>\n
+                            </ul>\n
+                          </div>\n
+                          <div class="divListtext">\n
+                            <span class="spantile2">\n
+                              <h1 title="Truyện Unbalance Triangle">Unbalance Triangle</h1>\n
+                            </span>\n
+                            <ul class="ullist_item">\n
+                              <li>\n
+                                <div class="item1">Tên khác</div>\n
+                                <div class="item2">: Unbalance x 3</div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Bản tiếng Anh</div>\n
+                                <div class="item2">: <a href="http://mangafree.me/unbalance-x-3/15084.html" rel="nofollow" target="_blank" title="Unbalance x 3">Unbalance x 3</a></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Tác giả</div>\n
+                                <div class="item2">: <a href="/tac-gia/im-dal-young.html" rel="nofollow" title="IM Dal-Young">IM Dal-Young</a></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Nhóm dịch</div>\n
+                                <div class="item2">: BlogTruyen</div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Thể loại</div>\n
+                                <div class="item2">: <a href="/comedy.html" title="Comedy">Comedy</a>, <a href="/ecchi.html" title="Ecchi">Ecchi</a>, <a href="/18.html" title="18+">18+</a></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Số chương</div>\n
+                                <div class="item2">: <span>60</span></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Tình trạng</div>\n
+                                <div class="item2">: <span>Còn Tiếp</span></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Lần đọc</div>\n
+                                <div class="item2">: <span>717682</span></div>\n
+                              </li>\n
+                              <li>\n
+                                <div class="item1">Like</div>\n
+                                <div class="item2">:<div class="fb-like" data-action="like" data-href="http://thichtruyentranh.com/unbalance-triangle/6422.html" data-layout="button_count" data-share="true" data-show-faces="false" style="text-indent:0;margin-left: 3px;display:inline!important"></div></div>\n
+                              </li>\n
+                              <li class="nonemobile"><a class="a_btread" href="/unbalance-triangle/unbalance-triangle-chap-1/140380.html">Đọc chương 1</a> <a class="a_btread" href="/unbalance-triangle/unbalance-triangle-chap-43-1/192767.html">Đọc chương cuối</a> <a class="a_btread a_btread2" href="#listChapterBlock">Danh sách chương</a></li>\n
+                            </ul>\n
+                          </div>\n
+                          <div class="rank">\n
+                            <span itemscope="" itemtype="http://data-vocabulary.org/Review-aggregate">\n
+                              <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating">\n
+                                <meta content="3" itemprop="average" />\n
+                                <meta content="5" itemprop="best" />\n
+                                <meta content="1" itemprop="worst" />\n
+                                <meta content="79" itemprop="count" />\n
+                              </span>\n
+                            </span>\n
+                          </div>\n
+                          <div style="clear:both"></div>\n
+                        </li>\n
+                        <li class="dismobile"><a class="a_btread" href="/unbalance-triangle/unbalance-triangle-chap-1/140380.html">Đọc chương 1</a> <a class="a_btread" href="/unbalance-triangle/unbalance-triangle-chap-43-1/192767.html">Đọc chương cuối</a> <a class="a_btread" href="#listChapterBlock">Danh sách chương</a></li>\n
+                        <li>\n
+                          <p class="p_Content"><strong>Nội dung truyện Unbalance Triangle:</strong> <br /></p>\n
+                          <p>Như các thím thể loại kinh điển trong hentai là INCEST và phổ biến nhất là chụy x em , anh x em! Hôm nay sẽ là một bộ ecchi hơi nhẹ với đề tài siêu kinh điển ấy! Một người chụy mất trí nhớ, 1 người em damdang (sr unikey hư) ở cùng một nhà và rồi hí hí....hí hí...ực...ực...</p>\n
+                          <p></p>\n
+                        </li>\n
+                      </ul>\n
+                      <div style="clear:both"></div>\n
+                    </div>\n
+                  </div>\n
+                  <div class="boxpageleft">\n
+                    <div class="divtab_list">\n
+                      <h1 class="box-title">\n
+                        <a href="#">Chương mới nhất "Unbalance Triangle"</a>\n
+                      </h1>\n
+                      <ul class="ul_listchap">\n
+                        <li>\n
+                          <span>60.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-43-1/192767.html" title="Unbalance triangle chap 43.1">Unbalance triangle chap 43.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>59.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-42-2/189927.html" title="Unbalance triangle chap 42.2">Unbalance triangle chap 42.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>58.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-42-1/187989.html" title="Unbalance triangle chap 42.1">Unbalance triangle chap 42.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>57.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-41-2/186929.html" title="Unbalance triangle chap 41.2">Unbalance triangle chap 41.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>56.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-41-1/186925.html" title="Unbalance triangle chap 41.1">Unbalance triangle chap 41.1</a>\n
+                        </li>\n
+                      </ul>\n
+                    </div>\n
+                  </div>\n
+                  <div class="boxpageleft" id="listChapterBlock">\n
+                    <div class="divtab_list">\n
+                      <h1 class="box-title">\n
+                        <a href="#">Danh sách chương "Unbalance Triangle"</a>\n
+                      </h1>\n
+                      <div class="boxnhap">\n
+                        <span>Chuyển nhanh tới trang</span>\n
+                        <input class="textnum" id="lbPageIndex" type="text" />\n
+                        <input id="btnGoPageIndex" type="submit" value="GO" />\n
+                      </div>\n
+                      <div class="pagingWrapOut">\n
+                        <div class="pagingWrap">\n
+                          <div class="paging">\n
+                            <ul>\n
+                              <li>\n
+                                <span>1</span>\n
+                              </li>\n
+                            </ul>\n
+                          </div>\n
+                        </div>\n
+                      </div>\n
+                      <ul class="ul_listchap">\n
+                        <li>\n
+                          <span>1.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-1/140380.html" title="Unbalance triangle chap 1">Unbalance triangle chap 1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>2.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-2/140554.html" title="Unbalance triangle chap 2">Unbalance triangle chap 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>3.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-3/141114.html" title="Unbalance triangle chap 3">Unbalance triangle chap 3</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>4.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-4/145408.html" title="Unbalance triangle chap 4">Unbalance triangle chap 4</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>5.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-5/149843.html" title="Unbalance triangle chap 5">Unbalance triangle chap 5</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>6.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-6/149963.html" title="Unbalance triangle chap 6">Unbalance triangle chap 6</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>7.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-7/150064.html" title="Unbalance triangle chap 7">Unbalance triangle chap 7</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>8.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-8/150181.html" title="Unbalance triangle chap 8">Unbalance triangle chap 8</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>9.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-9/150337.html" title="Unbalance triangle chap 9">Unbalance triangle chap 9</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>10.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-10/150466.html" title="Unbalance triangle chap 10">Unbalance triangle chap 10</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>11.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-11/150784.html" title="Unbalance triangle chap 11">Unbalance triangle chap 11</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>12.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-12/151664.html" title="Unbalance triangle chap 12">Unbalance triangle chap 12</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>13.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-13/151833.html" title="Unbalance triangle chap 13">Unbalance triangle chap 13</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>14.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-14/151968.html" title="Unbalance triangle chap 14">Unbalance triangle chap 14</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>15.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-15/152102.html" title="Unbalance triangle chap 15">Unbalance triangle chap 15</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>16.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-16/152246.html" title="Unbalance triangle chap 16">Unbalance triangle chap 16</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>17.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-17/152437.html" title="Unbalance triangle chap 17">Unbalance triangle chap 17</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>18.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-18/152685.html" title="Unbalance triangle chap 18">Unbalance triangle chap 18</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>19.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-19/153279.html" title="Unbalance triangle chap 19">Unbalance triangle chap 19</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>20.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-20/153508.html" title="Unbalance triangle chap 20">Unbalance triangle chap 20</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>21.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-21/154006.html" title="Unbalance triangle chap 21">Unbalance triangle chap 21</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>22.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-22/154089.html" title="Unbalance triangle chap 22">Unbalance triangle chap 22</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>23.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-23/154772.html" title="Unbalance triangle chap 23">Unbalance triangle chap 23</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>24.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-24/155623.html" title="Unbalance triangle chap 24">Unbalance triangle chap 24</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>25.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-25/156936.html" title="Unbalance triangle chap 25">Unbalance triangle chap 25</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>26.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-26/157055.html" title="Unbalance triangle chap 26">Unbalance triangle chap 26</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>27.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-27-phan-1/157240.html" title="Unbalance triangle chap 27 phần 1">Unbalance triangle chap 27 phần 1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>28.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-27-phan-2/157305.html" title="Unbalance triangle chap 27 phần 2">Unbalance triangle chap 27 phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>29.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-28-phan-1/157457.html" title="Unbalance triangle chap 28 phần 1">Unbalance triangle chap 28 phần 1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>30.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-28-phan-2/157579.html" title="Unbalance triangle chap 28 phần 2">Unbalance triangle chap 28 phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>31.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-28-phan-3/157855.html" title="Unbalance triangle chap 28-phần 3">Unbalance triangle chap 28-phần 3</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>32.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-28-phan-4/158077.html" title="Unbalance triangle chap 28-phần 4">Unbalance triangle chap 28-phần 4</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>33.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-29-phan-1/158284.html" title="Unbalance triangle chap 29-phần 1">Unbalance triangle chap 29-phần 1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>34.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-29-phan-2/158341.html" title="Unbalance triangle chap 29-phần 2">Unbalance triangle chap 29-phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>35.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-30-phan-1/159612.html" title="Unbalance triangle chap 30-phần 1">Unbalance triangle chap 30-phần 1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>36.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-30-phan-2/159739.html" title="Unbalance triangle chap 30-phần 2">Unbalance triangle chap 30-phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>37.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-31/164253.html" title="Unbalance triangle chap 31">Unbalance triangle chap 31</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>38.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-31-phan-2/166475.html" title="Unbalance triangle chap 31-phần 2">Unbalance triangle chap 31-phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>39.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-32/166596.html" title="Unbalance triangle chap 32">Unbalance triangle chap 32</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>40.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-32-phan-2/170132.html" title="Unbalance triangle chap 32-phần 2">Unbalance triangle chap 32-phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>41.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-33/170133.html" title="Unbalance triangle chap 33">Unbalance triangle chap 33</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>42.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-33-phan-2/170134.html" title="Unbalance triangle chap 33-phần 2">Unbalance triangle chap 33-phần 2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>43.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-34/170154.html" title="Unbalance triangle chap 34">Unbalance triangle chap 34</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>44.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-35-1/180366.html" title="Unbalance triangle chap 35.1">Unbalance triangle chap 35.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>45.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-35-2/180367.html" title="Unbalance triangle chap 35.2">Unbalance triangle chap 35.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>46.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-36-1/180398.html" title="Unbalance triangle chap 36.1">Unbalance triangle chap 36.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>47.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-36-2/180483.html" title="Unbalance triangle chap 36.2">Unbalance triangle chap 36.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>48.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-37-1/180689.html" title="Unbalance triangle chap 37.1">Unbalance triangle chap 37.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>49.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-37-2/180690.html" title="Unbalance triangle chap 37.2">Unbalance triangle chap 37.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>50.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-38-1/180795.html" title="Unbalance triangle chap 38.1">Unbalance triangle chap 38.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>51.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-38-2/180796.html" title="Unbalance triangle chap 38.2">Unbalance triangle chap 38.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>52.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-39-1/180797.html" title="Unbalance triangle chap 39.1">Unbalance triangle chap 39.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>53.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-39-2/181594.html" title="Unbalance triangle chap 39.2">Unbalance triangle chap 39.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>54.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-40-1/182315.html" title="Unbalance triangle chap 40.1">Unbalance triangle chap 40.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>55.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-40-2/183592.html" title="Unbalance triangle chap 40.2">Unbalance triangle chap 40.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>56.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-41-1/186925.html" title="Unbalance triangle chap 41.1">Unbalance triangle chap 41.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>57.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-41-2/186929.html" title="Unbalance triangle chap 41.2">Unbalance triangle chap 41.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>58.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-42-1/187989.html" title="Unbalance triangle chap 42.1">Unbalance triangle chap 42.1</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>59.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-42-2/189927.html" title="Unbalance triangle chap 42.2">Unbalance triangle chap 42.2</a>\n
+                        </li>\n
+                        <li>\n
+                          <span>60.</span>\n
+                          <a href="/unbalance-triangle/unbalance-triangle-chap-43-1/192767.html" title="Unbalance triangle chap 43.1">Unbalance triangle chap 43.1</a>\n
+                        </li>\n
+                      </ul>\n
+                      <div class="pagingWrapOut">\n
+                        <div class="pagingWrap">\n
+                          <div class="paging">\n
+                            <ul>\n
+                              <li>\n
+                                <span>1</span>\n
+                              </li>\n
+                            </ul>\n
+                          </div>\n
+                        </div>\n
+                      </div>\n
+                    </div>\n
+                  </div>\n
+                  <div class="boxpageleft">\n
+                    <div class="divtab_list">\n
+                      <div class="box_conten_news">\n
+                        <center>\n
+                          <div class="fb-comments" data-colorscheme="light" data-href="http://thichtruyentranh.com/unbalance-triangle/6422.html" data-numposts="10" data-order-by="reverse_time" data-width="670px"></div>\n
+                        </center>\n
+                      </div>\n
+                    </div>\n
+                  </div>\n
+                </div>\n
+                <div class="divrightpage">\n
+                  <div class="divstory_read">\n
+                    <h3 class="h3read">Truyện đã đánh dấu</h3>\n
+                    <div id="right_bookmarkStory">\n
+                      <a class="more_list" href="#" id="right_bookmarkStory_loadBtn" style="float:left;margin-left:35px">Xem...</a>\n
+                    </div>\n
+                    <div class="clear-both"></div>\n
+                  </div>\n
+                  <div class="clear-both" style="height:10px"></div>\n
+                  <div class="divstory_read">\n
+                    <h3 class="h3read">Truyện bạn vừa đọc</h3>\n
+                    <div id="right_readingStory">\n
+                      <a class="more_list" href="#" id="right_readingStory_loadBtn" style="float:left;margin-left:35px">Xem...</a>\n
+                    </div>\n
+                    <div class="clear-both"></div>\n
+                  </div>\n
+                  <div class="clear-both"></div>\n
+                  <div class="clear-both" style="height:10px"></div>\n
+                  <div class="divstory_read" style="padding:0px;overflow: hidden;">\n
+                    <div style="width:300px;height:250px">\n
+                      <div style="display:inline-block;width:336px">\n
+                        <div id="ads_0" onclick="plusone()" style="margin-left: 221px;height: 20px;width: 79px;z-index: 999;position: absolute;cursor: pointer;"></div>\n
+                      </div>\n
+                    </div>\n
+                  </div>\n
+                  <script type="text/javascript">\n
+      <![CDATA[var lcadsurl = 'Ly9ibG9ndHJ1eWVuLm1lL3RydXllbi1uZ2FuL25nYXktOC0zLWFpLWN1bmctY3VvaS1jaGktbWluaC1lbS1raG9jLzcwMDcuaHRtbA==';]]>\n
+                  </script>\n
+                  <div class="clear-both"></div>\n
+                  <script src="/js/jquery-1.6rc1.min.js?v=10" type="text/javascript"></script>\n
+                  <div class="listtop_read">\n
+                    <h3 class="h3read m10t">Truyện Mới Update</h3>\n
+                    <ul class="ulListstory_right">\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/unbalance-triangle/6422.html" title="Unbalance Triangle">\n
+                            <img alt="Unbalance Triangle" src="http://st.thichtruyentranh.com/images/icon-m/0022/unbalance-triangle1439612529.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/unbalance-triangle/6422.html" title="Unbalance Triangle">Unbalance Triangle</a> <span>Thể loại: <a href="/comedy.html" title="Comedy">Comedy</a>, <a href="/ecchi.html" title="Ecchi">Ecchi</a>, <a href="/18.html" title="18+">18+</a></span> <span>Tác giả: <a href="/tac-gia/im-dal-young.html" rel="nofollow" title="IM Dal-Young">IM Dal-Young</a></span></div>\n
+                      </li>\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/kamisama-no-iutoori-ii/701.html" title="Kamisama No Iutoori II">\n
+                            <img alt="Kamisama No Iutoori II" src="http://st.thichtruyentranh.com/images/icon-m/0061/hfc-kamisama-no-iutoori-ii1416860628.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/kamisama-no-iutoori-ii/701.html" title="Kamisama No Iutoori II">Kamisama No Iutoori II</a> <span>Thể loại: <a href="/action.html" title="Action">Action</a>, <a href="/adventure.html" title="Adventure">Adventure</a>, <a href="/horror.html" title="Horror">Horror</a>, <a href="/mystery.html" title="Mystery">Mystery</a>, <a href="/psychological.html" title="Psychological">Psychological</a>, <a href="/shounen.html" title="Shounen">Shounen</a>, <a href="/supernatural.html" title="Supernatural">Supernatural</a>, <a href="/tragedy.html" title="Tragedy">Tragedy</a>, <a href="/16.html" title="16+">16+</a></span> <span>Tác giả: <a href="/tac-gia/fujimura-akeji.html" rel="nofollow" title="FUJIMURA_Akeji">FUJIMURA_Akeji</a>, <a href="/tac-gia/kaneshiro-muneyuki.html" rel="nofollow" title="KANESHIRO Muneyuki">KANESHIRO Muneyuki</a></span></div>\n
+                      </li>\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/rabuta/8308.html" title="RaButa">\n
+                            <img alt="RaButa" src="http://st.thichtruyentranh.com/images/icon-m/0052/rabuta1472381491.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/rabuta/8308.html" title="RaButa">RaButa</a> <span>Thể loại: <a href="/comedy.html" title="Comedy">Comedy</a>, <a href="/romance.html" title="Romance">Romance</a>, <a href="/school-life.html" title="School Life">School Life</a>, <a href="/slice-of-life.html" title="Slice of Life">Slice of Life</a></span></div>\n
+                      </li>\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/red-sprite/8307.html" title="Red Sprite">\n
+                            <img alt="Red Sprite" src="http://st.thichtruyentranh.com/images/icon-m/0051/red-sprite1472381035.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/red-sprite/8307.html" title="Red Sprite">Red Sprite</a> <span>Thể loại: <a href="/action.html" title="Action">Action</a>, <a href="/adventure.html" title="Adventure">Adventure</a>, <a href="/fantasy.html" title="Fantasy">Fantasy</a>, <a href="/shounen.html" title="Shounen">Shounen</a>, <a href="/supernatural.html" title="Supernatural">Supernatural</a></span> <span>Tác giả: <a href="/tac-gia/yagi-tomohiro.html" rel="nofollow" title="YAGI Tomohiro">YAGI Tomohiro</a></span></div>\n
+                      </li>\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/the-great-conqueror/7707.html" title="The Great Conqueror">\n
+                            <img alt="The Great Conqueror" src="http://st.thichtruyentranh.com/images/icon-m/0027/the-great-conqueror1463314649.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/the-great-conqueror/7707.html" title="The Great Conqueror">The Great Conqueror</a> <span>Thể loại: <a href="/action.html" title="Action">Action</a>, <a href="/adventure.html" title="Adventure">Adventure</a>, <a href="/comedy.html" title="Comedy">Comedy</a>, <a href="/drama.html" title="Drama">Drama</a>, <a href="/fantasy.html" title="Fantasy">Fantasy</a>, <a href="/martial-arts.html" title="Martial Arts">Martial Arts</a>, <a href="/shounen.html" title="Shounen">Shounen</a></span> <span>Tác giả: <a href="/tac-gia/skeleton-fairy.html" rel="nofollow" title="Skeleton Fairy">Skeleton Fairy</a></span></div>\n
+                      </li>\n
+                      <li>\n
+                        <div class="divthumb">\n
+                          <a href="/tuong-vi-quan-loan/7701.html" title="Tường Vi Quấn Loạn">\n
+                            <img alt="Tường Vi Quấn Loạn" src="http://st.thichtruyentranh.com/images/icon-m/0021/tuong-vi-quan-loan1463129140.jpg" />\n
+                          </a>\n
+                        </div>\n
+                        <div class="newsContent"><a class="tile" href="/tuong-vi-quan-loan/7701.html" title="Tường Vi Quấn Loạn">Tường Vi Quấn Loạn</a> <span>Thể loại: <a href="/comedy.html" title="Comedy">Comedy</a>, <a href="/manhua.html" title="Manhua">Manhua</a></span></div>\n
+                      </li>\n
+                    </ul>\n
+                    <div style="clear:both"></div>\n
+                  </div>\n
+                  <div class="listtop_read">\n
+                    <h3 class="h3read m10t">Truyện Hay</h3>\n
+                    <ul class="ullist_lablestory">\n
+                      <li>\n
+                        <span class="num">1</span>\n
+                        <a class="textread" href="/truyen/2016/07/one-piece/112.html" title="One Piece">One Piece</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 6190450</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">2</span>\n
+                        <a class="textread" href="/thuan-tinh-nha-dau-hoa-lat-lat/5736.html" title="Thuần Tình Nha Đầu Hoả Lạt Lạt">Thuần Tình Nha Đầu Hoả Lạt Lạt</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 5301464</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">3</span>\n
+                        <a class="textread" href="/inuyasha-ban-dep/2084.html" title="Inuyasha Bản Đẹp">Inuyasha Bản Đẹp</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 4261168</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">4</span>\n
+                        <a class="textread" href="/xuyen-duyet-tay-nguyen-3000/5336.html" title="Xuyên Duyệt Tây Nguyên 3000">Xuyên Duyệt Tây Nguyên 3000</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 3558985</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">5</span>\n
+                        <a class="textread" href="/hiep-khach-giang-ho/4875.html" title="Hiệp Khách Giang Hồ">Hiệp Khách Giang Hồ</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 3486108</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">6</span>\n
+                        <a class="textread" href="/truyen/2016/06/fairy-tail/152.html" title="Fairy Tail">Fairy Tail</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 3414577</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">7</span>\n
+                        <a class="textread" href="/tam-trao-tien-the-chi-lu/5219.html" title="Tầm Trảo Tiền Thế Chi Lữ">Tầm Trảo Tiền Thế Chi Lữ</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 2818419</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">8</span>\n
+                        <a class="textread" href="/ky-si-hoang-tuong-da/48.html" title="Kỵ Sĩ Hoang Tưởng Dạ">Kỵ Sĩ Hoang Tưởng Dạ</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 2784193</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">9</span>\n
+                        <a class="textread" href="/shin-cau-be-but-chi/3224.html" title="Shin cậu bé bút chì">Shin cậu bé bút chì</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 2741149</span>\n
+                      </li>\n
+                      <li>\n
+                        <span class="num">10</span>\n
+                        <a class="textread" href="/truyen/2016/05/naruto/305.html" title="Naruto">Naruto</a>\n
+                        <span class="span_trang"></span>\n
+                        <span class="more1">Đọc: 2353665</span>\n
+                      </li>\n
+                    </ul>\n
+                    <div style="clear:both"></div>\n
+                  </div>\n
+                  <div class="linkface">\n
+                    <div class="fb-like-box" data-colorscheme="light" data-header="false" data-href="https://www.facebook.com/thiktruyentranh" data-show-border="true" data-show-faces="true" data-stream="false"></div>\n
+                    <div class="fb-recommendations" data-action="likes, recommends" data-colorscheme="light" data-header="true" data-site="http://thichtruyentranh.com"></div>\n
+                  </div>\n
+                </div>\n
+              </div>\n
+            </div>\n
+            <div style="clear:both"></div>\n
+          </div>\n
+          <div class="social-box">\n
+            <a class="open-box" href="javascript:void(0);"><i class="fa fa-comment"></i> <span>ThichTruyenTranh.com</span><div class="close-box"><i class="fa fa-close"></i></div></a>\n
+            <div class="content">\n
+              <div class="fb-like-box" data-colorscheme="light" data-header="false" data-href="https://www.facebook.com/thiktruyentranh" data-show-border="false" data-show-faces="false" data-stream="false"></div>\n
+            </div>\n
+          </div>\n
+          <div class="ft-has-background" id="footer">\n
+            <div class="conters">\n
+              <div class="footer-content-wrapper">\n
+                <ul class="footer-content">\n
+                  <li>\n
+                    <h3 class="title-3">Liên kết</h3>\n
+                    <ul class="ft-one-list ">\n
+                      <li>\n
+                        <h3>Đọc Truyện</h3>\n
+                      </li>\n
+                      <li>\n
+                        <h3>Free Manga</h3>\n
+                      </li>\n
+                      <li>\n
+                        <h3>Free Novels</h3>\n
+                      </li>\n
+                      <li>\n
+                        <h3>Truyện Tranh</h3>\n
+                      </li>\n
+                    </ul>\n
+                  </li>\n
+                  <li>\n
+                    <h3 class="title-3">Từ Khóa</h3>\n
+                    <ul class="ft-one-list">\n
+                      <li>SStudy</li>\n
+                      <li>Household Affairs</li>\n
+                      <li>Red Storm</li>\n
+                      <li>Bleach</li>\n
+                    </ul>\n
+                  </li>\n
+                  <li style="text-align:right;">\n
+                    <h3 class="title-3">Contact</h3>\n
+                    <ul class="ft-one-list">\n
+                      <li>Facebook</li>\n
+                      <li>Google Plus</li>\n
+                      <li>\n
+                        <a href="http://truyentranhvip.tumblr.com/post/140423627361/useful-good-for-nothing">Tumblr</a>\n
+                      </li>\n
+                      <li>\n
+                        <a href="https://www.wattpad.com/304241865-truyen-tranh-shirogane-no-karasu-the-silvery-crow">Wattpad</a>\n
+                      </li>\n
+                    </ul>\n
+                  </li>\n
+                </ul>\n
+                <div class="clear-both"></div>\n
+              </div>\n
+              <div class="footer_con">\n
+                <span>Copyright ©2014 ThichTruyenTranh.com. All Rights Reserved</span>\n
+                <center>\n
+                  <a class="dmca-badge" href="http://www.dmca.com/Protection/Status.aspx?ID=d0fd046c-f79a-4424-b933-d805695876f7" title="DMCA.com Protection Status">\n
+                    <img alt="DMCA.com Protection Status" src="http://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=d0fd046c-f79a-4424-b933-d805695876f7" />\n
+                  </a>\n
+                </center>\n
+              </div>\n
+            </div>\n
+          </div>\n
+          <a href="javascript:;" id="to_top">\n
+            <img alt="" src="/images/icon_gototop.png" />\n
+          </a>\n
+          <script src="/js/jquery.easing.1.3.mine.js" type="text/javascript"></script>\n
+          <script src="/js/idangerous.swiper.js" type="text/javascript"></script>\n
+          <script src="/js/common.js?v=1" type="text/javascript"></script>\n
+          <script>\n
+      <![CDATA[\n
+          window.___gcfg = {\n
+            lang: 'vi'\n
+          };\n
+        ]]>\n
+          </script>\n
+          <script async="" defer="defer" src="https://apis.google.com/js/platform.js"></script>\n
+          <link href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" />\n
+          <script src="/js/jquery-ui.js"></script>\n
+          <script src="/js/ssugest.js"></script>\n
+          <script type="text/javascript">\n
+      <![CDATA[\n
+          $(function() {\n
+            $( "#btnGoPageIndex" ).click(function() {\n
+              var page = parseInt( $('#lbPageIndex').val() )\n
+                if (page != 1 )\n
+                  if (page > 60 )\n
+                    page = 60\n
+                  if (page <= 1 || isNaN(page))\n
+                    window.location.href = "/unbalance-triangle/6422.html";\n
+                  else\n
+                    window.location.href = "/unbalance-triangle/6422/trang." + page + ".html";\n
+            });\n
+          });\n
+        ]]>\n
+          </script>\n
+          <div style="display:none">\n
+            <a href="https://plus.google.com/113046263683286548971?rel=author" rel="author">Tiểu Kiều</a>\n
+          </div>\n
+        </body>\n
+      </html>\n
+      """
+  }
+  -nodes: array:1 [
+    0 => DOMElement {#8423
+      +nodeName: "li"
+      +nodeValue: DOMDocumentType {#8437 …}
+      +nodeType: XML_ELEMENT_NODE
+      +parentNode: DOMElement {#8428 …}
+      +childNodes: DOMNodeList {#8431
+        +length: 2
+      }
+      +firstChild: DOMElement {#8432 …}
+      +lastChild: DOMNodeList {#8434}
+      +previousSibling: DOMElement {#8424 …}
+      +nextSibling: DOMElement {#8422 …}
+      +attributes: DOMNamedNodeMap {#8455
+        +length: 0
+      }
+      +ownerDocument: DOMDocument {#8449}
+      +namespaceURI: null
+      +prefix: ""
+      +localName: "li"
+      +baseURI: null
+      +textContent: ""
+      +tagName: "li"
+      +schemaTypeInfo: null
+    }
+  ]
+  -isHtml: true
+}

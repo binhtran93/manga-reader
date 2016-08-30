@@ -168,7 +168,8 @@ return [
          */
 
         //
-
+        App\Providers\CrawlerServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */
