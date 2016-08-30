@@ -58,7 +58,8 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
         
     }
     
-    public function getMangaInfo($url) {
+    public function getMangaInfo($domain, $uri) {
+        $url = $domain . $uri;
         $request = new Client();
         
         $response = $request->request('GET', $url);
@@ -72,8 +73,9 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
 
         $authors = [];
         $status = 'continue';
-        $translator;
+        $translator = '';
         $tags = [];
+        $chapter = [];
         
         foreach( $elements as $index => $element ) {
             if ( $index == count($elements) - 1 ) continue;
@@ -104,7 +106,12 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
                 $translator = trim( trim($item2->text(), ':'), ' ' );
             }
         }
-        dd($translator);
+        
+        $listChap = $crawler->filter('.ul_listchap li');
+        foreach( $listChap as $chap ) {
+            $chapEle = new Crawler($chap);
+            
+        }
 //        return [
 //            
 //        ]

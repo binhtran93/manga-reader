@@ -50,9 +50,13 @@ class CrawlChapter extends Command
         try {
             $mangaLink = $this->mangaLink->getAllMangaLink()->get();
             
+            if ( count($mangaLink) == 0 ) {
+                echo 'No links are found';
+                return;
+            }
+            
             foreach ( $mangaLink as $manga ) {
-                $url = $manga->domain . $manga->link;
-                $mangaInfo = $this->crawlerManga->getMangaInfo($url);
+                $mangaInfo = $this->crawlerManga->getMangaInfo($manga->domain, $manga->link);
             }
         } catch (Exception $ex) {
 
