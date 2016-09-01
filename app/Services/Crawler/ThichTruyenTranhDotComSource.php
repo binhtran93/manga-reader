@@ -75,7 +75,7 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
         $status = 'continue';
         $translator = '';
         $tags = [];
-        $chapter = [];
+        $chapters = [];
         
         foreach( $elements as $index => $element ) {
             if ( $index == count($elements) - 1 ) continue;
@@ -97,7 +97,7 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
             }
             
             if ( strcasecmp($label, 'Thể loại') == 0 ) {
-                $tags = $item2->filter('a')->each(function(Crawler $node, $index) {
+                $tags = $item2->filter('a')->each(function (Crawler $node, $index) {
                     return $node->attr('title');
                 });
             }
@@ -108,10 +108,18 @@ class ThichTruyenTranhDotComSource extends CrawlerAbstract implements ICrawlerMa
         }
         
         $listChap = $crawler->filter('.ul_listchap li');
-        foreach( $listChap as $chap ) {
-            $chapEle = new Crawler($chap);
-            
-        }
+        $listChap->each(function (Crawler $node, $index) use ($domain, $request) {
+            $chapterUrl = $domain . $node->filter('a')->attr('href');
+            $response = $request->request('GET', $chapterUrl);
+            $body = $response->getBody()->getContents();
+            dd($body);
+            $crawler = new Crawler($body);
+            $chapterMedia = $crawler->filter('#content_read >');
+            dd($chapterMedia);
+//            $chapterMedia->each(function(Crawler $node, $index) {
+//                dd($node);
+//            });
+        });
 //        return [
 //            
 //        ]
