@@ -6,20 +6,36 @@
  * and open the template in the editor.
  */
 namespace App\Services\Crawler;
+
+use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
+
 /**
  * Description of CrawlerAbstract
  *
  * @author Tran
  */
 abstract class CrawlerAbstract {
-    
-    protected $_mangaLinks = [];
 
-    protected function _resolvePageLink($index, $pattern) {
-        return preg_replace('/\<%.+?\%>/sm', $index, $pattern);
+    protected $request;
+
+    protected $domain;
+    
+    protected $pageListUrl;
+    
+    protected $pagePattern;
+    
+    protected $lastPageNumber;
+    
+    public function __construct(Client $request) {
+        $this->request = $request;
     }
     
-    public function getMangaLinks() {
-        return $this->_mangaLinks;
+    protected function createCrawler($html) {
+        return new Crawler($html);
+    }
+
+    protected function _resolvePageLink($index) {
+        return preg_replace('/\<%.+?\%>/sm', $index, $this->pagePattern);
     }
 }

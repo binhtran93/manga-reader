@@ -48,7 +48,7 @@ class GetEachMangaLink extends Command
     public function handle()
     {
         try {
-            $mangaLinks = $this->crawlerManga->getMangaLinks();
+            $mangaLinks = $this->crawlerManga->getAllMangaUrl();
             
             DB::beginTransaction();
             

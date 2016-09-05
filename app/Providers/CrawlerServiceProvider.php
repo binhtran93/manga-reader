@@ -23,6 +23,6 @@ class CrawlerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('App\Services\Crawler\ICrawlerManga', 'App\Services\Crawler\ThichTruyenTranhDotComSource');
+        $this->app->bind('App\Services\Crawler\ICrawlerManga', 'App\Services\Crawler\TruyenTranhDotNet');
     }
 }

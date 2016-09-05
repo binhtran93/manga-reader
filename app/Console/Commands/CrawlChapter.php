@@ -56,10 +56,11 @@ class CrawlChapter extends Command
             }
             
             foreach ( $mangaLink as $manga ) {
-                $mangaInfo = $this->crawlerManga->getMangaInfo($manga->domain, $manga->link);
+
+                $mangaInfo = $this->crawlerManga->getManga($manga->link);die();
             }
         } catch (Exception $ex) {
-
+            echo $ex;
         }
         
     }
