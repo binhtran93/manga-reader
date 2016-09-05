@@ -34,9 +34,10 @@ interface ICrawlerManga {
     
     public function getTags($mangaContainer);
     
-    public function getChapterContainer();
+    public function getChapterListContainer($html);
     
-    public function getChapterUrl();
+    public function getChapters($chapterListContainer);
     
+    public function getChaptersUrl($chapterContainer);
     
 }
