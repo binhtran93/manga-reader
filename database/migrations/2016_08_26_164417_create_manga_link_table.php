@@ -18,6 +18,7 @@ class CreateMangaLinkTable extends Migration
             $table->string('link', 255);
             $table->string('domain', 255);
             $table->tinyInteger('is_deleted')->default(0);
+            $table->tinyInteger('is_crawled')->default(0);
             $table->timestamps();
         });
     }

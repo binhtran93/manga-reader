@@ -5,7 +5,6 @@ namespace App\Services\Crawler;
 use App\Services\Crawler\CrawlerAbstract;
 use App\Services\Crawler\ICrawlerManga;
 use Symfony\Component\DomCrawler\Crawler;
-use Carbon\Carbon;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -85,8 +84,15 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
         $status = $this->getMangaStatus($mangaContainer);
         $author = $this->getAuthor($mangaContainer);
         $chapters = $this->getChapters($chapterContainer);
+        dd($chapters);
         
-//        $mangaStatus = $this->getMangaStatus($mangaContainer);
+        return [
+            'title' =>$title,
+            'tags' => $tags,
+            'status' => $status,
+            'author' => $author,
+            'chapters' => $chapters
+        ];
     }
     
     /**
@@ -142,7 +148,11 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
             $catName = explode('/', $path)[1];
             
             if ( $catName == 'trang-thai' ) {
-                return $node->text();
+                if ( $node->text() == 'Còn tiếp' ) {
+                    return 'continue';
+                } else {
+                    return 'full';
+                }
             }
         });
         
@@ -200,16 +210,24 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
      * Get all chapter of manga
      */
     public function getChapters($chapterListContainer) {
-        $now = Carbon::now();
         $chapters = [];
-        $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters) {
-            $body = $this->request->request('GET', $node->attr('href'))->getBody()->getContents();
-            $chaptersContainer = $this->createCrawler($body)->filter('.each-page');
-            $chapters[$index + 1] = $this->getChaptersUrl($chaptersContainer);
+        
+        $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters, &$test) {    
+            $chapUrl = $node->attr('href');
+            $pattern = '/(chap|chjap)\-\d+(\.\d+)?/i';
+            preg_match($pattern, $chapUrl, $matches);
+            
+            $string = array_key_exists( 0, $matches ) ? $matches[0] : '';
+            $arrayTmp = explode('-', $string);
+            $chapNumber = $arrayTmp[1] + 0;
+            
+            $body = $this->request->request('GET', $chapUrl)->getBody()->getContents();
+            $chaptersContainer = $this->createCrawler($body)->filter('.paddfixboth-mobile');
+            
+            $chapters[$chapNumber] = $this->getChaptersUrl($chaptersContainer);
         });
-        $future = Carbon::now();
-        echo $now->diffInSeconds($future);
-        dd($chapters);
+        
+        return $chapters;
     }
     
     /**

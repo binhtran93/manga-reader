@@ -55,4 +55,8 @@ class MangaLink extends Model {
     public function getAllMangaLink() {
         return $this->where('is_deleted', 0);
     }
+    
+    public function getNewMangaLink() {
+        return $this->where('is_deleted', 0)->where('is_crawled', 0);
+    }
 }
