@@ -6,7 +6,7 @@ use App\MangaLink;
 use App\Services\Crawler\ICrawlerManga;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use App\Manga;
+use App\Services\StoreMangaService;
 
 class CrawlChapter extends Command
 {
@@ -27,19 +27,19 @@ class CrawlChapter extends Command
     protected $crawlerManga;
     
     protected $mangaLink;
-
-    protected $manga;
+    
+    protected $storeManga;
 
     /**
      * Create a new command instance.
      *
      * @return void
      */
-    public function __construct(ICrawlerManga $crawlerManga, MangaLink $mangaLink, Manga $manga)
+    public function __construct(ICrawlerManga $crawlerManga, MangaLink $mangaLink, StoreMangaService $storeManga )
     {
         $this->crawlerManga = $crawlerManga;
         $this->mangaLink = $mangaLink;
-        $this->manga = $manga;
+        $this->storeManga = $storeManga;
         parent::__construct();
     }
 
@@ -59,10 +59,13 @@ class CrawlChapter extends Command
             }
             
             foreach ( $mangaLink as $index => $manga ) {
+                if ($index >0) break;
                 $mangaInfo = $this->crawlerManga->getManga($manga->link);
-                dd($mangaInfo);
-                $this->manga->saveManga($mangaInfo);
+                $this->storeManga->storeMangaInformaiton($mangaInfo);
             }
+            
+            
+//            file_put_contents(public_path() . DIRECTORY_SEPARATOR . 'test.txt', print_r($mangas, true));
         } catch (Exception $ex) {
             echo $ex;
         }

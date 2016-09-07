@@ -84,7 +84,6 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
         $status = $this->getMangaStatus($mangaContainer);
         $author = $this->getAuthor($mangaContainer);
         $chapters = $this->getChapters($chapterContainer);
-        dd($chapters);
         
         return [
             'title' =>$title,
@@ -214,12 +213,12 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
         
         $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters, &$test) {    
             $chapUrl = $node->attr('href');
-            $pattern = '/(chap|chjap)\-\d+(\.\d+)?/i';
+            $pattern = '/(chap|chjap)\-\d+(\.\d+)?[a-z]*/i';
             preg_match($pattern, $chapUrl, $matches);
             
             $string = array_key_exists( 0, $matches ) ? $matches[0] : '';
             $arrayTmp = explode('-', $string);
-            $chapNumber = $arrayTmp[1] + 0;
+            $chapNumber = $arrayTmp[1];
             
             $body = $this->request->request('GET', $chapUrl)->getBody()->getContents();
             $chaptersContainer = $this->createCrawler($body)->filter('.paddfixboth-mobile');

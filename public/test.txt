@@ -1,0 +1,729 @@
+Array
+(
+    [0] => Array
+        (
+            [title] => Bloody Girl
+            [tags] => Array
+                (
+                    [0] => Comic
+                    [1] => Manhua
+                    [2] => Historical
+                    [3] => Adventure
+                )
+
+            [status] => continue
+            [author] => Bloody Girl
+            [chapters] => Array
+                (
+                    [001a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-20.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-21.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-22.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1467098200-BLOODY-GIRL-Chapter-1a-Hamtruyenvn-ve-chai-23.jpg
+                        )
+
+                    [001b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1467098246-BLOODY-GIRL-Chapter-1b-Hamtruyenvn-ve-chai-20.jpg
+                        )
+
+                    [002a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-20.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-21.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-22.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1467098274-BLOODY-GIRL-Chapter-2a-Hamtruyenvn-ve-chai-23.jpg
+                        )
+
+                    [002b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098304-Bloody-Girl-Chapter-2b-Hamtruyenvn-ve-chai-18.jpg
+                        )
+
+                    [003a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098334-Bloody-Girl-Chapter-3a-Hamtruyenvn-ve-chai-19.jpg
+                        )
+
+                    [003b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-20.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-21.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1467098364-Bloody-Girl-Chapter-3b-Hamtruyenvn-ve-chai-22.jpg
+                        )
+
+                    [004a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098424-Bloody-Girl-Chapter-4a-Hamtruyenvn-ve-chai-19.jpg
+                        )
+
+                    [004b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-20.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-21.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-22.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1467098458-Bloody-Girl-Chapter-4b-Hamtruyenvn-ve-chai-23.jpg
+                        )
+
+                    [005a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098508-Bloody-Girl-Chapter-5a-Hamtruyenvn-ve-chai-18.jpg
+                        )
+
+                    [005b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1467098538-Bloody-Girl-Chapter-5b-Hamtruyenvn-ve-chai-19.jpg
+                        )
+
+                    [006a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098575-Bloody-Girl-Chapter-6a-Hamtruyenvn-ve-chai-17.jpg
+                        )
+
+                    [006b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098622-Bloody-Girl-Chapter-6b-Hamtruyenvn-ve-chai-16.jpg
+                        )
+
+                    [007a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1467098658-Bloody-Girl-Chapter-7a-Hamtruyenvn-ve-chai-18.jpg
+                        )
+
+                    [007b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098690-Bloody-Girl-Chapter-7b-Hamtruyenvn-ve-chai-16.jpg
+                        )
+
+                    [008a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098748-Bloody-Girl-Chapter-8a-Hamtruyenvn-ve-chai-17.jpg
+                        )
+
+                    [008b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098840-Bloody-Girl-Chapter-8b-Hamtruyenvn-ve-chai-17.jpg
+                        )
+
+                    [009a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1467098903-Bloody-Girl-Chapter-9a-Hamtruyenvn-ve-chai-17.jpg
+                        )
+
+                    [009b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1470884280-Bloody-Girl-Chapter-9b-Hamtruyenvn-ve-chai-16.jpg
+                        )
+
+                    [010a] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1470884308-Bloody-Girl-Chapter-10a-Hamtruyenvn-ve-chai-17.jpg
+                        )
+
+                    [010b] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-01.png
+                            [1] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-02.png
+                            [2] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-03.png
+                            [3] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-04.png
+                            [4] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-05.png
+                            [5] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-06.png
+                            [6] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-07.png
+                            [7] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-08.png
+                            [8] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-09.png
+                            [9] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-10.png
+                            [10] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-11.png
+                            [11] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-12.png
+                            [12] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-13.png
+                            [13] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-14.png
+                            [14] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-15.png
+                            [15] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-16.png
+                            [16] => http://storage.fshare.vn/Test-vechai/1473147674-Bloody-Girl-Chapter-10b-Hamtruyenvn-ve-chai-17.png
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [title] => Trinity Wonder
+            [tags] => Array
+                (
+                    [0] => Manhwa
+                    [1] => Magic
+                    [2] => Historical
+                    [3] => Fantasy
+                    [4] => Comedy
+                    [5] => Adventure
+                )
+
+            [status] => continue
+            [author] => Trinity Wonder
+            [chapters] => Array
+                (
+                    [000] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1461297791-TT8Trinity-Wonder-Chap-0-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1461297791-TT8Trinity-Wonder-Chap-0-ve-chai-03.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1461297791-TT8Trinity-Wonder-Chap-0-ve-chai-04.jpg
+                        )
+
+                    [001] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-02.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-03.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-04.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-05.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-06.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-07.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-08.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-09.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-10.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-11.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-12.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-13.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-14.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-15.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-16.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-17.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-18.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-19.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-20.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-21.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-22.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-23.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-24.jpg
+                            [23] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-25.jpg
+                            [24] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-26.jpg
+                            [25] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-27.jpg
+                            [26] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-28.jpg
+                            [27] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-29.jpg
+                            [28] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-30.jpg
+                            [29] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-31.jpg
+                            [30] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-32.jpg
+                            [31] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-33.jpg
+                            [32] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-34.jpg
+                            [33] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-35.jpg
+                            [34] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-36.jpg
+                            [35] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-37.jpg
+                            [36] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-38.jpg
+                            [37] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-39.jpg
+                            [38] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-40.jpg
+                            [39] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-41.jpg
+                            [40] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-42.jpg
+                            [41] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-43.jpg
+                            [42] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-44.jpg
+                            [43] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-45.jpg
+                            [44] => http://storage.fshare.vn/Test-vechai/1461298403-TT8Trinity-Wonder-Chap-1-ve-chai-46.jpg
+                        )
+
+                    [002] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-02.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-03.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-04.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-05.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-06.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-07.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-08.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-09.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-10.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-11.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-12.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-13.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-14.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-15.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-16.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-17.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-18.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-19.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-20.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-21.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-22.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-23.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1461298319-TT8Trinity-Wonder-Chap-2-ve-chai-24.jpg
+                        )
+
+                    [003] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1461915909-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1461915909-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1461915909-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1461915909-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1461915909-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1461915909-Trinity-Wonder-Chapter-3-ve-chai-13.jpg
+                        )
+
+                    [004] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1462527309-SDT-Trinity-Wonder-Chap-04-ve-chai-13.jpg
+                        )
+
+                    [005] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1463121716-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1463121716-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1463113537-SDT-Trinity-Wonder-Chap-05-ve-chai-12.jpg
+                        )
+
+                    [006] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1463736968-Trinity-Wonder-Chapter-6-ve-chai-11.jpg
+                        )
+
+                    [007] => Array
+                        (
+                            [0] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-zcUD2ARQu7A/V0kK0lPOKYI/AAAAAAAAWuQ/asymVTIkV7sSuJOkMn2aI6jlew5MYPbhQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-01.jpg
+                            [1] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/--NW3sDNJDx4/V0kK4Ci56CI/AAAAAAAAWuY/AZPOo_DCPD8aIWscXCWNduO4tGvU6I28gCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-02.jpg
+                            [2] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-RQlafgQi8To/V0kK77P1qeI/AAAAAAAAWuc/Q2G4WxznpeMde5kZMudGr3TF0KvxTI-kgCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-03.jpg
+                            [3] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-TcZEGA5P1-4/V0kK-97vYuI/AAAAAAAAWug/SgGEd2Aw8Jk-94DPzoZNdv79xKT19tqFgCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-04.jpg
+                            [4] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-Hh1qrxVNXDo/V0kLC_nbJoI/AAAAAAAAWuk/6tb5JkEy-TofXUf-MLbXoDi8epQDNT6SgCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-05.jpg
+                            [5] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-fD3uOoil8tw/V0kLFpmPP3I/AAAAAAAAWuo/CIHxw7otX5EMGlBhrrAEP9MTWcP-d2wqQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-06.jpg
+                            [6] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-52LIKkoibJQ/V0kLIWTsiII/AAAAAAAAWus/Rl_BD2x8lL4a3Bfcwb4VWR40doDEyBFEwCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-07.jpg
+                            [7] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-ZmhPI1t9cU4/V0kLL4A_UvI/AAAAAAAAWuw/1NFiB1h-QmcpYyq0mQqC834KP2i_PW30QCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-08.jpg
+                            [8] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-LIygo2RvNlw/V0kLO3DfetI/AAAAAAAAWu0/Z4caRW9-OBw-Ph8JVtVlDs5zYuGT_mKZQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-09.jpg
+                            [9] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-r16iOh24vZ0/V0kLSYArkUI/AAAAAAAAWu4/5B2hJzqoRrY5HMoC7Cu2yNiPd34TY8QnQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-10.jpg
+                            [10] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-va_T89gjuDI/V0kLVx3E0kI/AAAAAAAAWu8/XejDX3FG7W4fzyej25izuM_KmuLOD-tIQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-11.jpg
+                            [11] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-xBk9SpXudv8/V0kLY1dHfoI/AAAAAAAAWvA/3kOC859i-Ho5xe59dk2yy33NMUKwsHgkQCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-12.jpg
+                            [12] => http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=https://3.bp.blogspot.com/-CeyRG2jywmE/V0kLZvIK2DI/AAAAAAAAWvE/hg4FQIoxZVchHmIzzsZ4ar1Y9jznB9J1gCHM/d/SDT-Trinity-Wonder-Chap-07-ve-chai-13.jpg
+                        )
+
+                    [008] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1465710816-TT8Trinity-Wonder-Chap-8-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1465710816-TT8Trinity-Wonder-Chap-8-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1465710816-TT8Trinity-Wonder-Chap-8-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1465710934-TT8Trinity-Wonder-Chap-8-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1465710816-TT8Trinity-Wonder-Chap-8-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1465710982-TT8Trinity-Wonder-Chap-8-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1465710982-TT8Trinity-Wonder-Chap-8-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1465710982-TT8Trinity-Wonder-Chap-8-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1465711101-TT8Trinity-Wonder-Chap-8-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1465710982-TT8Trinity-Wonder-Chap-8-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1465711150-TT8Trinity-Wonder-Chap-8-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1465711275-TT8Trinity-Wonder-Chap-8-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1465711150-TT8Trinity-Wonder-Chap-8-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1465711275-TT8Trinity-Wonder-Chap-8-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1465711275-TT8Trinity-Wonder-Chap-8-ve-chai-15.jpg
+                        )
+
+                    [009] => Array
+                        (
+                            [0] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-01.jpg
+                            [1] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-02.jpg
+                            [2] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-03.jpg
+                            [3] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-04.jpg
+                            [4] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-05.jpg
+                            [5] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-06.jpg
+                            [6] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-07.jpg
+                            [7] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-08.jpg
+                            [8] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-09.jpg
+                            [9] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-10.jpg
+                            [10] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-11.jpg
+                            [11] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-12.jpg
+                            [12] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-13.jpg
+                            [13] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-14.jpg
+                            [14] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-15.jpg
+                            [15] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-16.jpg
+                            [16] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-17.jpg
+                            [17] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-18.jpg
+                            [18] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-19.jpg
+                            [19] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-20.jpg
+                            [20] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-21.jpg
+                            [21] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-22.jpg
+                            [22] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-23.jpg
+                            [23] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-24.jpg
+                            [24] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-25.jpg
+                            [25] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-26.jpg
+                            [26] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-27.jpg
+                            [27] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-28.jpg
+                            [28] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-29.jpg
+                            [29] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-30.jpg
+                            [30] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-31.jpg
+                            [31] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-32.jpg
+                            [32] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-33.jpg
+                            [33] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-34.jpg
+                            [34] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-35.jpg
+                            [35] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-36.jpg
+                            [36] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-37.jpg
+                            [37] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-38.jpg
+                            [38] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-39.jpg
+                            [39] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-40.jpg
+                            [40] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-41.jpg
+                            [41] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-42.jpg
+                            [42] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-43.jpg
+                            [43] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-44.jpg
+                            [44] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-45.jpg
+                            [45] => http://storage.fshare.vn/Test-vechai/1473145369-SDT-Trinity-Wonder-chap-9-ve-chai-46.jpg
+                        )
+
+                )
+
+        )
+
+)
