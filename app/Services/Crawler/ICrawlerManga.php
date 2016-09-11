@@ -40,4 +40,8 @@ interface ICrawlerManga {
     
     public function getChaptersUrl($chapterContainer);
     
+    public function getThumbnail($mangaCOntainer);
+    
+    public function getDescription($mangaCOntainer);
+    
 }

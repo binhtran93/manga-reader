@@ -27,14 +27,17 @@ class Tag extends Model
             return ( !in_array($tag, $tagsExistsName) );
         });
         
-        dd($newTags);
-//        $tagsStorage = [];
-//        foreach ( $tags as $tag ) {
-//            $tagsStorage[]['tag_name'] = $tag;
-//        }
-//        
-//        $this->insert($tagsStorage);
-//        return $this->whereIn('tag_name', $tags)->get();
+        $tagsStorage = [];
+        foreach ( $newTags as $tag ) {
+            $tagsStorage[] = [
+                'tag_name' => $tag, 
+                'created_at' => date('Y-m-d H:i:s'), 
+                'updated_at' => date('Y-m-d H:i:s')
+            ];
+        }
+        
+        $this->insert($tagsStorage);
+        return $this->whereIn('tag_name', $tags)->get();
     }
     
     public function getTagByName($name) {

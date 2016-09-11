@@ -16,13 +16,13 @@ class CreateMangaTable extends Migration
         Schema::create('manga', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->string('manga_name', 255);
-            $table->string('translator', 255);
+            $table->string('translator', 255)->nullable();
             $table->enum('status', ['full', 'continue']);
             $table->string('slug', 255);
             $table->mediumText('description');
             $table->string('thumbnail_uri', 100);
-            $table->integer('view_count')->unsigned();
-            $table->integer('like_count')->unsigned();
+            $table->integer('view_count')->unsigned()->default(0);
+            $table->integer('like_count')->unsigned()->default(0);
             $table->tinyInteger('is_deleted')->default(0);
             $table->timestamps();
         });

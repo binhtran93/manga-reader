@@ -49,29 +49,43 @@ class StoreMangaService {
         $title = $mangaInfo['title'];
         $tags = $mangaInfo['tags'];
         $status = $mangaInfo['status'];
-        $author = $mangaInfo['author'];
+        $authors = $mangaInfo['authors'];
         $chapters = $mangaInfo['chapters'];
+        $description = $mangaInfo['description'];
+        $thumbnail = $mangaInfo['thumbnail'];
         
         $tagsRecords = $this->_storeTags($tags);
+        $mangaRecord = $this->_storeManga($title, $status, $description, $thumbnail);
+        $authorRecords = $this->_storeAuthors($authors);
+        $chapters = $this->_storeChapters($chapters, $mangaRecord->id);
     }
     
     protected function _storeTags($tags) {
         return $this->tag->storeTags($tags);
     }
     
-    protected function _storeAuthor() {
-        
+    protected function _storeAuthors($authors) {
+        return $this->author->storeAuthors($authors);
     }
     
-    protected function _storeChapter() {
+    protected function _storeChapters($chapters, $mangaId) {
+        $chaptersStorage = [];
+        $chapterMediaStorage = [];
         
+        if ( empty($chapters) ) {
+            return;
+        }
+        
+        foreach ( $chapters as $chapNumber => $chapterMedia ) {
+            $chaptersStorage[] = $chapNumber;
+            $chapterMediaStorage[] = ['chapter_media' => $chapterMedia, 'chapter_number' => $chapNumber];
+        }
+        
+        $chapters = $this->chapter->storeChapters($chaptersStorage, $mangaId);
+        $chapterMedias = $this->chapterMedia->storeChapterMedias($chapterMediaStorage);
     }
     
-    protected function _storeChapterMedia() {
-        
-    }
-    
-    protected function _storeManga() {
-        
+    protected function _storeManga($title, $status, $description, $thumbnail) {
+        return $this->manga->storeManga($title, $status, $description, $thumbnail);
     }
 }

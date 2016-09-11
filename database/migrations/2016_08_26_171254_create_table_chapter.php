@@ -16,8 +16,8 @@ class CreateTableChapter extends Migration
         Schema::create('chapter', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->integer('manga_id')->unsigned();
-            $table->integer('chapter_number')->unsigned();
-            $table->tinyInteger('is_deleted');
+            $table->string('chapter_number', 10);
+            $table->tinyInteger('is_deleted')->default(0);
             $table->timestamps();
         });
     }

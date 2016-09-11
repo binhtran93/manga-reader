@@ -75,22 +75,27 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
      * @param type $url
      */
     public function getManga($url) {
+        $url = 'http://truyentranh.net/corpse-party-book-of-shadows';
         $body = $this->request->request('GET', $url)->getBody()->getContents();
         $mangaContainer = $this->getMangaContainer($body);
         $chapterContainer = $this->getChapterListContainer($body);
         
-        $title = $this->getAuthor($mangaContainer);
+        $title = $this->getTitle($mangaContainer);
         $tags = $this->getTags($mangaContainer);
         $status = $this->getMangaStatus($mangaContainer);
-        $author = $this->getAuthor($mangaContainer);
+        $authors = $this->getAuthor($mangaContainer);
         $chapters = $this->getChapters($chapterContainer);
+        $thumbnail = $this->getThumbnail($mangaContainer);
+        $description = $this->getDescription($mangaContainer);
         
         return [
             'title' =>$title,
             'tags' => $tags,
             'status' => $status,
-            'author' => $author,
-            'chapters' => $chapters
+            'authors' => $authors,
+            'chapters' => $chapters,
+            'thumbnail' => $thumbnail,
+            'description' => $description
         ];
     }
     
@@ -112,15 +117,6 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
     public function getMangaContainer($html) {
         $crawler = $this->createCrawler($html);
         return $crawler->filter('.manga-detail');
-    }
-
-    /**
-     * Get author of manga
-     * @param type $mangaContainer
-     * @return type
-     */
-    public function getAuthor($mangaContainer) {
-        return $mangaContainer->filter('.title-manga')->text();
     }
     
     /**
@@ -178,18 +174,18 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
             }
         });
         
-        
         return array_filter ($tags);
     }
     
     /**
-     * Get translator of manga
+     * Get author of manga
      * @param type $mangaContainer
      * @return string
      */
-    public function getTranslator($mangaContainer) {
+    public function getAuthor($mangaContainer) {
         $authorEle = $mangaContainer->filter('.description-update')->filter('a');
-        $author = $authorEle->each(function (Crawler $node, $index) {
+        $authors = [];
+        $authorEle->each(function (Crawler $node, $index) use (&$authors) {
             $href = $node->attr('href');
             $components = parse_url($href);
             
@@ -197,12 +193,11 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
             $catName = explode('/', $path)[1];
             
             if ( $catName == 'tac-gia' ) {
-                return $node->text();
+                $authors[] = $node->text();
             }
         });
         
-        $author = array_filter($status);
-        return array_shift($author);
+        return $authors;
     }
     
     /**
@@ -241,6 +236,31 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
         
         return $chapterMedias;
     }
+
+    /**
+     * Get description of manga
+     * @param type $mangaCOntainer
+     * @return string
+     */
+    public function getDescription($mangaCOntainer) {
+        return '';
+    }
+
+    /**
+     * Get thumbnail of manga
+     * @param type $mangaCOntainer
+     * @return string
+     */
+    public function getThumbnail($mangaCOntainer) {
+        return '';
+    }
     
+    /**
+     * get traslator of manga
+     * @param type $mangaContainer
+     */
+    public function getTranslator($mangaContainer) {
+        return '';
+    }
 
 }
