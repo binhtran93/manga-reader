@@ -11,7 +11,7 @@ class ChapterMedia extends Model
     protected $fillable = ['chapter_id', 'uri'];
     
     public function storeChapterMedias($chapterMedias) {
-        dd($chapterNumber);
+        dd($chapterMedias)
         $chapterStorage = [];
         
         $chapersExist = $this->findByChapterMediaAndChapterNumber($chapterMedias)->get();

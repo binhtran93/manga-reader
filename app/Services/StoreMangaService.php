@@ -71,6 +71,7 @@ class StoreMangaService {
     protected function _storeChapters($chapters, $mangaId) {
         $chaptersStorage = [];
         $chapterMediaStorage = [];
+        $storage = [];
         
         if ( empty($chapters) ) {
             return;
@@ -78,11 +79,18 @@ class StoreMangaService {
         
         foreach ( $chapters as $chapNumber => $chapterMedia ) {
             $chaptersStorage[] = $chapNumber;
-            $chapterMediaStorage[] = ['chapter_media' => $chapterMedia, 'chapter_number' => $chapNumber];
+            $chapterMediaStorage[$chapNumber] = $chapterMedia;
         }
         
-        $chapters = $this->chapter->storeChapters($chaptersStorage, $mangaId);
-        $chapterMedias = $this->chapterMedia->storeChapterMedias($chapterMediaStorage);
+        // store chapter
+        $chaptersStored = $this->chapter->storeChapters($chaptersStorage, $mangaId);
+        
+        foreach ( $chaptersStored as $chapter ) {
+            $storage[$chapter->id] = $chapterMediaStorage[$chapter->chapter_number];
+        }
+        
+        // store chapter media
+        $chapterMediasStored = $this->chapterMedia->storeChapterMedias($storage);
     }
     
     protected function _storeManga($title, $status, $description, $thumbnail) {

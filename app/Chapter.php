@@ -17,7 +17,7 @@ class Chapter extends Model
         $chapersExistNumber = [];
         
         foreach ( $chapersExist as $chapter ) {
-            $chapersExistNumber[] = $chapter;
+            $chapersExistNumber[] = $chapter->chapter_number;
         }
         
         $newChapters = array_filter($chapters, function($chapter) use ($chapersExistNumber) {
