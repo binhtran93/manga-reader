@@ -64,7 +64,8 @@ class StoreMangaService {
         $authorRecords = $this->_storeAuthors($authors);
         $chapters = $this->_storeChapters($chapters, $mangaRecord->id);
         
-//        $this->mangaLink->markCrawled($mangaRecord->id);
+        // mark crawled
+        $this->mangaLink->markCrawled($mangaRecord->id);
     }
     
     protected function _storeTags($tags) {

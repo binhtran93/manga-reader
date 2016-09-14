@@ -57,17 +57,26 @@ class CrawlChapter extends Command
                 echo 'No links are found';
                 return;
             }
+            $this->output->progressStart(count($mangaLink));
             
             foreach ( $mangaLink as $index => $manga ) {
-                if ($index >0) break;
+//                if ($index >100) break;
+                
                 $mangaInfo = $this->crawlerManga->getManga($manga->link);
+                
+                DB::beginTransaction();
+                
                 $this->storeManga->storeMangaInformaiton($mangaInfo);
+                
+                DB::commit();
+                $this->output->progressAdvance();
             }
             
+            $this->output->progressFinish();
             
-//            file_put_contents(public_path() . DIRECTORY_SEPARATOR . 'test.txt', print_r($mangas, true));
         } catch (Exception $ex) {
             echo $ex;
+            DB::rollBack();
         }
     }
 }

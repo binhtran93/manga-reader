@@ -16,7 +16,7 @@ class CreateTableChapterMedia extends Migration
         Schema::create('chapter_media', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->integer('chapter_id')->unsigned();
-            $table->string('uri', 255);
+            $table->text('uri', 1000);
             $table->tinyInteger('is_deleted')->default(0);
             $table->timestamps();
         });
