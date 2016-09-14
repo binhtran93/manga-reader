@@ -17,7 +17,7 @@ class CreateTableChapterMedia extends Migration
             $table->increments('id')->unsigned();
             $table->integer('chapter_id')->unsigned();
             $table->string('uri', 255);
-            $table->tinyInteger('is_deleted');
+            $table->tinyInteger('is_deleted')->default(0);
             $table->timestamps();
         });
     }

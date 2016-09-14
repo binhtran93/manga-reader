@@ -75,7 +75,7 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
      * @param type $url
      */
     public function getManga($url) {
-        $url = 'http://truyentranh.net/corpse-party-book-of-shadows';
+//        $url = 'http://truyentranh.net/corpse-party-book-of-shadows';
         $body = $this->request->request('GET', $url)->getBody()->getContents();
         $mangaContainer = $this->getMangaContainer($body);
         $chapterContainer = $this->getChapterListContainer($body);

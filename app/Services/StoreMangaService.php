@@ -7,6 +7,7 @@ use App\ChapterMedia;
 use App\Manga;
 use App\Tag;
 use App\Author;
+use App\MangaLink;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -31,18 +32,22 @@ class StoreMangaService {
     
     protected $chapterMedia;
     
+    protected $mangaLink;
+    
     public function __construct(
         Manga $manga, 
         Tag $tag, 
         Author $author, 
         Chapter $chapter, 
-        ChapterMedia $chapterMedia
+        ChapterMedia $chapterMedia,
+        MangaLink $mangaLink
     ) {
         $this->manga = $manga;
         $this->tag = $tag;
         $this->author = $author;
         $this->chapter = $chapter;
         $this->chapterMedia = $chapterMedia;
+        $this->mangaLink = $mangaLink;
     }
     
     public function storeMangaInformaiton($mangaInfo) {
@@ -58,6 +63,8 @@ class StoreMangaService {
         $mangaRecord = $this->_storeManga($title, $status, $description, $thumbnail);
         $authorRecords = $this->_storeAuthors($authors);
         $chapters = $this->_storeChapters($chapters, $mangaRecord->id);
+        
+//        $this->mangaLink->markCrawled($mangaRecord->id);
     }
     
     protected function _storeTags($tags) {
@@ -90,7 +97,7 @@ class StoreMangaService {
         }
         
         // store chapter media
-        $chapterMediasStored = $this->chapterMedia->storeChapterMedias($storage);
+        $this->chapterMedia->storeChapterMedias($storage);
     }
     
     protected function _storeManga($title, $status, $description, $thumbnail) {
