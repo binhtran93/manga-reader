@@ -8,6 +8,8 @@ use App\Manga;
 use App\Tag;
 use App\Author;
 use App\MangaLink;
+use App\MangaTag;
+use App\MangaAuthor;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -34,13 +36,19 @@ class StoreMangaService {
     
     protected $mangaLink;
     
+    protected $mangaTag;
+    
+    protected $mangaAuthor;
+
     public function __construct(
         Manga $manga, 
         Tag $tag, 
         Author $author, 
         Chapter $chapter, 
         ChapterMedia $chapterMedia,
-        MangaLink $mangaLink
+        MangaLink $mangaLink,
+        MangaTag $mangaTag,
+        MangaAuthor $mangaAuthor
     ) {
         $this->manga = $manga;
         $this->tag = $tag;
@@ -48,6 +56,8 @@ class StoreMangaService {
         $this->chapter = $chapter;
         $this->chapterMedia = $chapterMedia;
         $this->mangaLink = $mangaLink;
+        $this->mangaTag = $mangaTag;
+        $this->mangaAuthor = $mangaAuthor;
     }
     
     public function storeMangaInformaiton($mangaInfo) {
@@ -58,11 +68,34 @@ class StoreMangaService {
         $chapters = $mangaInfo['chapters'];
         $description = $mangaInfo['description'];
         $thumbnail = $mangaInfo['thumbnail'];
+        $mangaTags = [];
+        $mangaAuthors = [];
         
         $tagsRecords = $this->_storeTags($tags);
         $mangaRecord = $this->_storeManga($title, $status, $description, $thumbnail);
         $authorRecords = $this->_storeAuthors($authors);
         $chapters = $this->_storeChapters($chapters, $mangaRecord->id);
+        
+        foreach ( $tagsRecords as $tag ) {
+            $mangaTags[] = [
+                'manga_id' => $mangaRecord->id,
+                'tag_id' => $tag->id,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
+            ];
+        }
+        
+        foreach ( $authorRecords as $author ) {
+            $mangaAuthors[] = [
+                'manga_id' => $mangaRecord->id,
+                'author_id' => $author->id,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
+            ];
+        }
+        
+        $this->_storeMangaTags($mangaTags);
+        $this->_storeMangaAuthors($mangaAuthors);
         
         // mark crawled
         $this->mangaLink->markCrawled($mangaRecord->id);
@@ -103,5 +136,13 @@ class StoreMangaService {
     
     protected function _storeManga($title, $status, $description, $thumbnail) {
         return $this->manga->storeManga($title, $status, $description, $thumbnail);
+    }
+    
+    protected function _storeMangaTags($mangaTags) {
+        return $this->mangaTag->storeMangaTags($mangaTags);
+    }
+    
+    protected function _storeMangaAuthors($mangaAuthors) {
+        return $this->mangaAuthor->storeMangaAuthors($mangaAuthors);
     }
 }

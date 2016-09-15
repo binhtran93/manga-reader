@@ -12,7 +12,7 @@ class Author extends Model
     
     public function storeAuthors($authors) {
         if ( empty($authors) ) {
-            return false;
+            return [];
         }
         
         $authorsExist = $this->findByName($authors)->get();

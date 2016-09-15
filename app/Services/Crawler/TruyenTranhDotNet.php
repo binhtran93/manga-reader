@@ -5,6 +5,7 @@ namespace App\Services\Crawler;
 use App\Services\Crawler\CrawlerAbstract;
 use App\Services\Crawler\ICrawlerManga;
 use Symfony\Component\DomCrawler\Crawler;
+use Illuminate\Support\Facades\Log;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -208,11 +209,13 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
         
         $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters, &$test) {    
             $chapUrl = $node->attr('href');
-            $pattern = '/(chap|chjap)\-\d+(\.\d+)?[a-z]*/i';
+            Log::error($chapUrl);
+            $pattern = '/(chap|chjap|cxhap)\-\d+(\.\d+)?[a-z]*/i';
             preg_match($pattern, $chapUrl, $matches);
             
             $string = array_key_exists( 0, $matches ) ? $matches[0] : '';
             $arrayTmp = explode('-', $string);
+            
             $chapNumber = $arrayTmp[1];
             
             $body = $this->request->request('GET', $chapUrl)->getBody()->getContents();
