@@ -24,8 +24,9 @@ class ChapterMedia extends Model
             }
         }
         
-        $this->insert($chapterStorage);
-//        return $this->whereIn('chapter_number', $chapters)->where('manga_id', $mangaId)->get();
+        foreach ( array_chunk($chapterStorage, 200) as $storage ) {
+            $this->insert($storage);
+        }
     }
     
     public function findByChapterMediaAndChapterNumber($chapterMedias) {

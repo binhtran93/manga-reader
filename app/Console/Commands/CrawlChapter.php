@@ -60,7 +60,6 @@ class CrawlChapter extends Command
             $this->output->progressStart(count($mangaLink));
             
             foreach ( $mangaLink as $index => $manga ) {
-//                if ($index >100) break;
                 
                 $mangaInfo = $this->crawlerManga->getManga($manga->link);
                 

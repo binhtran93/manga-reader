@@ -6,6 +6,7 @@ use App\Services\Crawler\CrawlerAbstract;
 use App\Services\Crawler\ICrawlerManga;
 use Symfony\Component\DomCrawler\Crawler;
 use Illuminate\Support\Facades\Log;
+use App\Services\Crawler\ChapterException;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -76,7 +77,7 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
      * @param type $url
      */
     public function getManga($url) {
-//        $url = 'http://truyentranh.net/corpse-party-book-of-shadows';
+//        $url = 'http://truyentranh.net/being-boyfriend-and-girlfriend';
         $body = $this->request->request('GET', $url)->getBody()->getContents();
         $mangaContainer = $this->getMangaContainer($body);
         $chapterContainer = $this->getChapterListContainer($body);
@@ -143,8 +144,8 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
             $path = $components['path'];
             $catName = explode('/', $path)[1];
             
-            if ( $catName == 'trang-thai' ) {
-                if ( $node->text() == 'Còn tiếp' ) {
+            if ( $catName == 'trang-thai' ) {    
+                if ( strcasecmp($node->text(), 'Còn tiếp' ) == 0 ) {
                     return 'continue';
                 } else {
                     return 'full';
@@ -207,14 +208,22 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
     public function getChapters($chapterListContainer) {
         $chapters = [];
         
-        $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters, &$test) {    
+        $chapterListContainer->filter('p > a')->each(function(Crawler $node, $index) use (&$chapters) {    
             $chapUrl = $node->attr('href');
-            Log::error($chapUrl);
-            $pattern = '/(chap|chjap|cxhap)\-\d+(\.\d+)?[a-z]*/i';
+            $ignoreList = $this->getIgnoreChapterList();
+            
+            if ( in_array($chapUrl, $ignoreList) ) return false;
+            
+            $pattern = '/(chap|chjap|cxhap|chao)\-+\d+(\.\d+)?[a-z]*/i';  
             preg_match($pattern, $chapUrl, $matches);
             
             $string = array_key_exists( 0, $matches ) ? $matches[0] : '';
             $arrayTmp = explode('-', $string);
+            
+            if ( !isset($arrayTmp[1]) ) {
+                file_put_contents(storage_path('logs/chapter-log.txt'), "'".$chapUrl . "',\r\n", FILE_APPEND);
+                return false;
+            }
             
             $chapNumber = $arrayTmp[1];
             
@@ -264,6 +273,28 @@ class TruyenTranhDotNet extends CrawlerAbstract implements ICrawlerManga {
      */
     public function getTranslator($mangaContainer) {
         return '';
+    }
+    
+    public function getIgnoreChapterList() {
+        return [
+            'http://truyentranh.net/world-trigger/world-trigger-border-briefing-file',
+            'http://truyentranh.net/dau-pha-thuong-khung/Dau-Pha-Thuong-Khung-Ngoai-truyen-001',
+            'http://truyentranh.net/dau-pha-thuong-khung/Dau-Pha-Thuong-Khung-Ngoai-truyen-002',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Bangai-Hen-Spring-2011',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Venus-part-001',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Venus-part-002',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Venus-part-003',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Venus-part-004',
+            'http://truyentranh.net/to-love-ru-darkness/To-Love-Ru-Darkness-Venus-part-005',
+            'http://truyentranh.net/great-teacher-onizuka-paradise-lost/Great-Teacher-Onizuka--Paradise-Lost-Extra',
+            'http://truyentranh.net/scandal-of-the-witch-vu-khi-khieu-goi/chap 007',
+            'http://truyentranh.net/kazoku-gokko-gintama-dj/chap-oneshot',
+            'http://truyentranh.net/hajimete-no-gal/chap-Bonus-01',
+            'http://truyentranh.net/yeu-em-tu-cai-nhin-dau-tien/chap-Extra1',
+            'http://truyentranh.net/yeu-em-tu-cai-nhin-dau-tien/chap-Extra2',
+            'http://truyentranh.net/yeu-em-tu-cai-nhin-dau-tien/chap-Extra3',
+            'http://truyentranh.net/getsuyobi-no-tawawa-sono/chap-extra'
+        ];
     }
 
 }
