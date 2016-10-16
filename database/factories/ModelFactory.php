@@ -21,3 +21,16 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Manga::class, function (Faker\Generator $faker) {
+
+    return [
+        'manga_name' => $faker->name,
+        'status' => (rand(0,1) == 0) ? 'full' : 'continue',
+        'slug' => $faker->url,
+        'description' => $faker->text,
+        'thumbnail_uri' => $faker->url,
+        'view_count' => $faker->numberBetween(0, 1000),
+        'like_count' => $faker->numberBetween(0, 1000)
+    ];
+});

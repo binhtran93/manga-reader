@@ -14,8 +14,8 @@ return [
     */
 
     'paths' => [
-//        realpath(base_path('resources/views')),
-        realpath(base_path('angular')),
+        realpath(base_path('resources/views')),
+//        realpath(base_path('angular')),
     ],
 
     /*

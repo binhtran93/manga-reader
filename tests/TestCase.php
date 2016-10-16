@@ -22,4 +22,13 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         return $app;
     }
+    
+    public function setUp() {
+        parent::setUp();
+        $this->prepareForTests();
+    }
+    
+    public function prepareForTests() {
+        \Illuminate\Support\Facades\Artisan::call('migrate');
+    }
 }
