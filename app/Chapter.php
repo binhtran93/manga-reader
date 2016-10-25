@@ -13,7 +13,7 @@ class Chapter extends Model
     public function storeChapters($chapters, $mangaId) {
         $chapterStorage = [];
         
-        $chapersExist = $this->findByChapNumberAndManga($chapters, $mangaId)->get();
+        $chapersExist = $this->findByChapNumberAndManga($chapters, $mangaId);
         $chapersExistNumber = [];
         
         foreach ( $chapersExist as $chapter ) {
@@ -39,9 +39,9 @@ class Chapter extends Model
     
     public function findByChapNumberAndManga($chapters, $mangaId) {
         if ( is_array($chapters) ) {
-            return $this->whereIn('chapter_number', $chapters)->where('manga_id', $mangaId);
+            return $this->whereIn('chapter_number', $chapters)->where('manga_id', $mangaId)->get();
         }
         
-        return $this->where('chapter_number', $chapters)->where('manga_id', $mangaId);
+        return $this->where('chapter_number', $chapters)->where('manga_id', $mangaId)->get();
     }
 }

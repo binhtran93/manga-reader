@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Manga extends Model
@@ -12,27 +13,15 @@ class Manga extends Model
     protected $fillable = ['manga_name', 'translator', 'status', 'slug', 'description', 'thumbnail_uri', 'view_count', 'like_count'];
     
     /**
-     * Store manga
-     * @param type $title
-     * @param type $status
-     * @param type $description
-     * @param type $thumbnail
-     * @return type
+     * Store manga and return record
+     * @param array $mangaData ['title' => 'onepiece', 'status' => 'full', 'description' => 'bbla']
+     * @return Collection
      */
-    public function storeManga($title, $status, $description, $thumbnail) {
-        $manga = $this->findByTitle($title)->first();
-        if ( !empty($manga) ) {
-            return $manga;
-        }
-        
-        $slug = implode( '-', explode(' ', trim($title) ) );
-        $manga = $this->create([
-            'manga_name' => $title,
-            'status' => $status,
-            'description' => $description,
-            'thumbnail_uri' => $thumbnail,
-            'slug' => $slug
-        ]);
+    public function storeManga($mangaData) {
+        $slug = implode( '-', explode(' ', trim($mangaData["manga_name"]) ) );
+        $mangaData['slug'] = $slug;
+
+        $manga = $this->create($mangaData);
         
         return $manga;
     }
@@ -65,7 +54,7 @@ class Manga extends Model
             $query = $query->where('manga_name', 'like', "%{$search}%");
         }
 
-        return $query;
+        return $query->get();
     }
     
     /**
@@ -90,5 +79,51 @@ class Manga extends Model
     public function getColumn($index) {
         $columns = ['manga_name', 'slug', 'view', 'like'];
         return $columns[$index];
+    }
+
+
+    /**
+     * @param $mangaId
+     * @return Collection
+     */
+    public function getMangaById($mangaId) {
+        return $this->where(['id' => $mangaId, 'is_deleted' => 0])->with('tags')->with('authors')->first();
+    }
+
+    /**
+     * Many to many relationship with Tag model
+     */
+    public function tags() {
+        return $this->belongsToMany('App\Tag', 'manga_tag', 'manga_id', 'tag_id');
+    }
+
+    /**
+     * Many to many relationship with Author model
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function authors() {
+        return $this->belongsToMany('App\Author', 'manga_author', 'manga_id', 'author_id');
+    }
+
+    /**
+     * @param $mangaId
+     * @param $newManga Array
+     * @return mixed
+     * @throws \Exception
+     */
+    public function updateManga($mangaId, $newManga) {
+        if ( !$mangaId ) {
+            throw new \Exception('Manga Id not provided');
+        }
+
+        $manga = $this->getMangaById($mangaId);
+        if ( !$manga ) {
+            throw new \Exception("Manga record not exist with id: {$mangaId}");
+        }
+
+        $newManga['slug'] = implode( '-', explode(' ', $newManga['manga_name']) );
+        $updated = $this->where(['id' => $mangaId, 'is_deleted' => 0])->update($newManga);
+
+        return $updated;
     }
 }

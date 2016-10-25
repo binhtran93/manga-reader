@@ -61,20 +61,20 @@ class StoreMangaService {
     }
     
     public function storeMangaInformaiton($mangaInfo) {
-        $title = $mangaInfo['title'];
-        $tags = $mangaInfo['tags'];
-        $status = $mangaInfo['status'];
-        $authors = $mangaInfo['authors'];
-        $chapters = $mangaInfo['chapters'];
-        $description = $mangaInfo['description'];
-        $thumbnail = $mangaInfo['thumbnail'];
-        $mangaTags = [];
+        $title =        ( isset($mangaInfo['title']) )      ? ($mangaInfo['title'])     : '';
+        $tags =         ( isset($mangaInfo['tags']) )       ? $mangaInfo['tags']        : [];
+        $status =       ( isset($mangaInfo['status']) )     ? $mangaInfo['status']      : 'continue';
+        $authors =      ( isset($mangaInfo['authors']) )    ? $mangaInfo['authors']     : [];
+        $chapters =     ( isset($mangaInfo['tags']) )       ? $mangaInfo['tags']        : [];
+        $description =  ( isset($mangaInfo['description'])) ? $mangaInfo['description'] : '';
+        $thumbnail =    ( isset($mangaInfo['thumbnail']) )  ? $mangaInfo['thumbnail']   : '';
+        $mangaTags =    [];
         $mangaAuthors = [];
         
         $tagsRecords = $this->_storeTags($tags);
-        $mangaRecord = $this->_storeManga($title, $status, $description, $thumbnail);
+        $mangaRecord = $this->_storeManga(['manga_name' => $title, 'status' => $status, 'description' => $description, 'thumbnail' => $thumbnail]);
         $authorRecords = $this->_storeAuthors($authors);
-        $chapters = $this->_storeChapters($chapters, $mangaRecord->id);
+        $this->_storeChapters($chapters, $mangaRecord->id);
         
         foreach ( $tagsRecords as $tag ) {
             $mangaTags[] = [

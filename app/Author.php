@@ -9,7 +9,12 @@ class Author extends Model
     protected $table = 'author';
     
     protected $fillable = ['author_name'];
-    
+
+    /**
+     * Save author to DB
+     * @param $authors
+     * @return array
+     */
     public function storeAuthors($authors) {
         if ( empty($authors) ) {
             return [];
@@ -38,12 +43,24 @@ class Author extends Model
         $this->insert($authorsStorage);
         return $this->whereIn('author_name', $authors)->get();
     }
-    
+
+    /**
+     * Find author by name
+     * @param $authors
+     * @return mixed
+     */
     public function findByName($authors) {
         if (is_array($authors) ) {
             return $this->whereIn('author_name', $authors);
         }
         
         return $this->where('author_name', $authors);
+    }
+
+    /**
+     * Get authors
+     */
+    public function getAuthors() {
+        return $this->where(['is_deleted' => 0])->get();
     }
 }

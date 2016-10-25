@@ -9,25 +9,47 @@ class MangaControllerTest extends TestCase
 {
     protected $mangaCtrl;
 
+    protected $manga;
+
 
     public function setUp() {
         parent::setUp();
         $this->manga = $this->createMock('App\Manga');
-        $this->mangaCtrl = app()->make('App\Http\Controllers\MangaController', [$this->manga]);
+        $this->mangaCtrl = $this->getMockBuilder('App\Http\Controllers\MangaController')->setMethods(null)->setConstructorArgs([$this->manga])->getMock();
     }
         
     public function test_get_manga_list_return_json() {
-//        $fakeArray = [
-//            ['manga_name' => 'manga_1', 'status' => 'full'],
-//            ['manga_name' => 'manga_2', 'status' => 'full'],
-//        ];
-//        $request = $this->createMock('Illuminate\Http\Request');
-//        $this->manga->expects($this->any())->method('getMangaList')->will($this->returnValue($fakeArray));
-//        
-//        $response = $this->mangaCtrl->getMangaList($request);
-//
-//        $this->assertTrue( $response->getStatusCode() == 200 );
-//        $this->assertTrue( json_encode($fakeArray) == $response->getContent() );
+        $request = $this->createMock('Illuminate\Http\Request');
+        $this->manga->expects($this->once())->method('getMangaList');
+
+        $response = $this->mangaCtrl->getMangaList($request);
+        $content = json_decode($response->getContent(), true);
+
+        $this->assertTrue( $response->getStatusCode() == 200 );
+        $this->assertTrue( $content['status'] == 1 );
+    }
+
+    public function test_get_manga_by_id_not_provide_manga_id() {
+        $request = $this->getMockBuilder('Illuminate\Http\Request')->getMock();
+        $request->expects($this->once())->method('get')->with('mangaId')->will($this->returnValue(null));
+
+        $response = $this->mangaCtrl->getMangaById($request);
+        $content = json_decode($response->getContent(), true);
+
+        $this->assertTrue($response->getStatusCode() == 200);
+        $this->assertTrue($content['status'] == 0);
+    }
+
+    public function test_get_manga_by_id() {
+        $request = $this->getMockBuilder('Illuminate\Http\Request')->getMock();
+        $request->expects($this->once())->method('get')->with('mangaId')->will($this->returnValue(1));
+
+        $response = $this->mangaCtrl->getMangaById($request);
+        $content = json_decode($response->getContent(), true);
+
+        $this->assertTrue($response->getStatusCode() == 200);
+        $this->assertTrue($content['status'] == 1);
+        $this->assertArrayHasKey('manga', $content);
     }
     
 }

@@ -20,7 +20,7 @@ class CreateMangaTable extends Migration
             $table->enum('status', ['full', 'continue']);
             $table->string('slug', 255);
             $table->mediumText('description');
-            $table->string('thumbnail_uri', 100);
+            $table->string('thumbnail_uri', 100)->nullable();
             $table->integer('view_count')->unsigned()->default(0);
             $table->integer('like_count')->unsigned()->default(0);
             $table->tinyInteger('is_deleted')->default(0);
